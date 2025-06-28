@@ -1,0 +1,9 @@
+version: 2
+authtoken: 2mER7BbaCr12B5nN54y1qx0v2fN_7a5CM2naZQaTEC13AfGXf
+tunnels:
+  signaling:
+    proto: http
+    addr: 3000
+  mediasoup:
+    proto: http
+    addr: 3001

@@ -1,0 +1,30 @@
+FROM node:18-slim
+
+# Install dependencies for mediasoup
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    make \
+    g++ \
+    pkg-config \
+    libssl-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application
+COPY . .
+
+# Expose ports (will be overridden by docker-compose)
+EXPOSE 3000
+EXPOSE 2000
+EXPOSE 10000-10999/udp
+
+# Start the server
+CMD ["node", "index.js"]

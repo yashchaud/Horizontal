@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    networks:
+      - mediasoup_net
+
+  mediasoup_server_a:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SERVER_ID=server_a
+      - ANNOUNCED_IP=127.0.0.1
+      - PORT=3001
+      - MEDIASOUP_PORT=2001
+      - SERVER_CAPACITY=2
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - RTC_MIN_PORT=10000
+      - RTC_MAX_PORT=10100
+    ports:
+      - "3000:3000"
+      - "2000:2000"
+      - "10000-10100:10000-10100/udp"
+    depends_on:
+      - redis
+    networks:
+      - mediasoup_net
+
+  mediasoup_server_b:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SERVER_ID=server_b
+      - ANNOUNCED_IP=127.0.0.1
+      - PORT=3002
+      - MEDIASOUP_PORT=2002
+      - SERVER_CAPACITY=2
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - RTC_MIN_PORT=10101
+      - RTC_MAX_PORT=10200
+    ports:
+      - "3001:3001"
+      - "2001:2001"
+      - "10101-10200:10101-10200/udp"
+    depends_on:
+      - redis
+    networks:
+      - mediasoup_net
+
+volumes:
+  redis_data:
+    driver: local
+
+networks:
+  mediasoup_network:
+    driver: bridge    

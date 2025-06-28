@@ -1,0 +1,2627 @@
+2025-06-08T06:45:12.836Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:17.851Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:22.856Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:27.874Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:32.880Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:37.898Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:42.905Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:47.923Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:52.928Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:45:56.068Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:01.086Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:06.102Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:11.114Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:16.122Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:21.141Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:26.153Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:31.163Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:36.165Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:41.176Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:46.183Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:51.190Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:46:56.209Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:01.221Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:06.238Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:11.242Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:16.249Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:21.256Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:26.267Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:31.278Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:36.292Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:41.309Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:46.318Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:51.323Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:47:56.326Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:01.342Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:06.350Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:11.366Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:16.377Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:21.384Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:23.367Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:28.380Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:33.399Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:38.415Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:43.431Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:48.437Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:53.449Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:48:58.456Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:03.470Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:08.480Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:13.491Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:18.504Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:23.896Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:28.911Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:33.924Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:38.941Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:43.949Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:48.965Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:53.972Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:49:58.982Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:03.992Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:09.005Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:14.012Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:19.018Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:24.030Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:29.035Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:34.042Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:39.052Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:44.056Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:49.074Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:54.085Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:50:59.103Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:04.107Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:09.113Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:14.129Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:19.144Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:24.153Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:29.165Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:34.169Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:39.182Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:44.187Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:49.198Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:51:54.208Z [ERROR] [mediasoup-server]: WebSocket client error: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1714:7) {
+  code: 'ECONNREFUSED',
+  [errors]: [Array]
+}
+2025-06-08T06:53:07.513Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T06:54:10.933Z [ERROR] [mediasoup-server]: Error in consume request: Cannot consume
+2025-06-08T06:54:10.947Z [ERROR] [mediasoup-server]: Error in consume request: Cannot consume
+2025-06-08T06:54:11.068Z [ERROR] [mediasoup-server]: Error in consume request: Cannot consume
+2025-06-08T06:54:11.113Z [ERROR] [mediasoup-server]: Error in consume request: Cannot consume
+2025-06-08T06:56:47.613Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T06:56:49.405Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T06:57:18.150Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T06:57:23.156Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T07:03:27.445Z [ERROR] [mediasoup-server]: Cannot pipe producer f562bd08-e57a-48c1-819c-8f2341b786cb: No remote router ID available for server-2
+2025-06-08T07:03:27.471Z [ERROR] [mediasoup-server]: Cannot pipe producer 3df97d4e-c83f-4e1b-81db-94887d4b6d5b: No remote router ID available for server-2
+2025-06-08T08:06:00.651Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:06:41.241Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client ZOhT8MBAwHvHj24NAAAH: undefined
+2025-06-08T08:06:41.256Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client ZOhT8MBAwHvHj24NAAAH: undefined
+2025-06-08T08:06:41.362Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client q9a7cPrPZ3MM3QejAAAD: undefined
+2025-06-08T08:06:41.426Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client q9a7cPrPZ3MM3QejAAAD: undefined
+2025-06-08T08:07:11.331Z [ERROR] [mediasoup-server]: Error piping producer f32ee30c-cb74-4879-abb6-f9d06214e282 to remote server: Error: Pipe operation timed out for 2c369d92-3caf-4f19-a70a-c24f2a01241c after 30000ms
+2025-06-08T08:07:11.409Z [ERROR] [mediasoup-server]: Error piping producer abcefff0-29d5-4a03-936e-7c7b3b576802 to remote server: Error: Pipe operation timed out for 22e75911-25bc-4390-a23d-348ce7ab62be after 30000ms
+2025-06-08T08:11:10.885Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:15.890Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:20.900Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:25.902Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:30.920Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:35.930Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:40.940Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:45.952Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:50.963Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:11:55.973Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:00.983Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:05.993Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:11.004Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:16.006Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:20.120Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:12:25.255Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:30.264Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:12:44.192Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client rSpUosoR43gw9gUvAAAH: undefined
+2025-06-08T08:12:44.206Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client rSpUosoR43gw9gUvAAAH: undefined
+2025-06-08T08:12:44.390Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client A2wqu7v6OfNETATCAAAD: undefined
+2025-06-08T08:12:44.459Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client A2wqu7v6OfNETATCAAAD: undefined
+2025-06-08T08:14:12.834Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:13.279Z [ERROR] [mediasoup-server]: Cannot pipe producer 0602a26a-0fdb-4049-96f2-aa1b133037fc: No remote router ID available for server-2
+2025-06-08T08:14:13.311Z [ERROR] [mediasoup-server]: Cannot pipe producer 8328762d-924d-4124-a3bd-e20d72d1dcca: No remote router ID available for server-2
+2025-06-08T08:14:13.369Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client 9IPELhqGMS0wSYBvAAAD: undefined
+2025-06-08T08:14:13.373Z [ERROR] [mediasoup-server]: Cannot pipe producer 15ce43f4-2182-4511-893a-5277e1b6fc06: No remote router ID available for server-2
+2025-06-08T08:14:13.406Z [ERROR] [mediasoup-server]: Cannot pipe producer c52c631e-f13e-4edb-be35-e6035f8301d4: No remote router ID available for server-2
+2025-06-08T08:14:13.431Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client VoBF10ixiF6CAEvJAAAB: undefined
+2025-06-08T08:14:13.470Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client 9IPELhqGMS0wSYBvAAAD: undefined
+2025-06-08T08:14:13.483Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client VoBF10ixiF6CAEvJAAAB: undefined
+2025-06-08T08:14:17.846Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:22.853Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:27.865Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:32.878Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:37.882Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:14:47.319Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client tbyM2e2elQ7mLN1KAAAF: undefined
+2025-06-08T08:14:47.321Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client tbyM2e2elQ7mLN1KAAAF: undefined
+2025-06-08T08:14:47.353Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client 9IPELhqGMS0wSYBvAAAD: undefined
+2025-06-08T08:14:47.399Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client 9IPELhqGMS0wSYBvAAAD: undefined
+2025-06-08T08:14:49.417Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client c4pu5f7B9dWvr-PQAAAH: undefined
+2025-06-08T08:14:49.422Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client c4pu5f7B9dWvr-PQAAAH: undefined
+2025-06-08T08:14:49.478Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client tbyM2e2elQ7mLN1KAAAF: undefined
+2025-06-08T08:14:49.511Z [ERROR] [mediasoup-server]: Invalid or empty rtpCapabilities received from client tbyM2e2elQ7mLN1KAAAF: undefined
+2025-06-08T08:15:56.732Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:15:57.131Z [ERROR] [mediasoup-server]: Cannot pipe producer f2bb0675-24fc-4b20-b7f3-d422aeaf8c53: No remote router ID available for server-2
+2025-06-08T08:15:57.143Z [ERROR] [mediasoup-server]: Cannot pipe producer 0bc96a47-802c-4710-af9c-0f25eb1e5a07: No remote router ID available for server-2
+2025-06-08T08:15:57.178Z [ERROR] [mediasoup-server]:    [object Object] not found for socket VbazbO29RAt5UUjVAAAD.
+2025-06-08T08:15:57.179Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:15:57.190Z [ERROR] [mediasoup-server]: Cannot pipe producer 4a499929-6417-4d3a-8714-7d5061ccdb04: No remote router ID available for server-2
+2025-06-08T08:15:57.205Z [ERROR] [mediasoup-server]:    [object Object] not found for socket WhB8o3lM6y0vMN9HAAAC.
+2025-06-08T08:15:57.206Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:15:57.207Z [ERROR] [mediasoup-server]: Cannot pipe producer 9f0f81b0-feb3-41b1-90b5-d085dd040bd3: No remote router ID available for server-2
+2025-06-08T08:15:57.232Z [ERROR] [mediasoup-server]:    [object Object] not found for socket VbazbO29RAt5UUjVAAAD.
+2025-06-08T08:15:57.232Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:15:57.236Z [ERROR] [mediasoup-server]:    [object Object] not found for socket WhB8o3lM6y0vMN9HAAAC.
+2025-06-08T08:15:57.236Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:02.239Z [ERROR] [mediasoup-server]:    [object Object] not found for socket JtK9exFVi3q_CB6iAAAF.
+2025-06-08T08:17:02.239Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:02.243Z [ERROR] [mediasoup-server]:    [object Object] not found for socket JtK9exFVi3q_CB6iAAAF.
+2025-06-08T08:17:02.243Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:02.334Z [ERROR] [mediasoup-server]:    [object Object] not found for socket WhB8o3lM6y0vMN9HAAAC.
+2025-06-08T08:17:02.334Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:02.364Z [ERROR] [mediasoup-server]:    [object Object] not found for socket WhB8o3lM6y0vMN9HAAAC.
+2025-06-08T08:17:02.364Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:04.018Z [ERROR] [mediasoup-server]:    [object Object] not found for socket zJNFHfviAPc-9d42AAAH.
+2025-06-08T08:17:04.018Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:04.024Z [ERROR] [mediasoup-server]:    [object Object] not found for socket zJNFHfviAPc-9d42AAAH.
+2025-06-08T08:17:04.025Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:04.094Z [ERROR] [mediasoup-server]:    [object Object] not found for socket JtK9exFVi3q_CB6iAAAF.
+2025-06-08T08:17:04.095Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:17:04.156Z [ERROR] [mediasoup-server]:    [object Object] not found for socket JtK9exFVi3q_CB6iAAAF.
+2025-06-08T08:17:04.156Z [ERROR] [mediasoup-server]: Error in consume request: Transport not found
+2025-06-08T08:28:03.889Z [ERROR] [mediasoup-server]: Cannot pipe producer 2d732009-9dbe-4a02-9665-80eaad79ba26: No remote router ID available for server-2
+2025-06-08T08:28:03.907Z [ERROR] [mediasoup-server]: Cannot pipe producer 85139330-5baf-4d60-8558-82456ab96c32: No remote router ID available for server-2
+2025-06-08T08:28:03.957Z [ERROR] [mediasoup-server]: Cannot pipe producer 33ac0a36-a1e4-4dce-8c68-37f1d25bd586: No remote router ID available for server-2
+2025-06-08T08:28:04.033Z [ERROR] [mediasoup-server]: Cannot pipe producer b10dfd0c-bf9c-4575-8d16-b8dd6986a4ea: No remote router ID available for server-2
+2025-06-08T08:30:53.381Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:30:53.992Z [ERROR] [mediasoup-server]: Cannot pipe producer c53d5070-5a25-4198-a455-75fd1c3bb253: No remote router ID available for server-2
+2025-06-08T08:30:54.017Z [ERROR] [mediasoup-server]: Cannot pipe producer 32c0dddb-6fe9-4fc7-97be-68822bbf04e6: No remote router ID available for server-2
+2025-06-08T08:30:54.044Z [ERROR] [mediasoup-server]: Cannot pipe producer 50d5ef92-9e1c-428f-b6cf-11c87b1905b8: No remote router ID available for server-2
+2025-06-08T08:30:54.067Z [ERROR] [mediasoup-server]: Cannot pipe producer ff53c784-2246-4f5f-b599-2aae2f0998ba: No remote router ID available for server-2
+2025-06-08T08:31:49.151Z [ERROR] [mediasoup-server]: Cannot pipe producer 824bf364-cd09-46cd-8ca2-375d4db24a69: No remote router ID available for server-2
+2025-06-08T08:31:49.170Z [ERROR] [mediasoup-server]: Cannot pipe producer e52095b8-4e61-4af1-977a-e84ab6261f45: No remote router ID available for server-2
+2025-06-08T08:31:49.535Z [ERROR] [mediasoup-server]: Cannot pipe producer eeb8ce46-3f0a-4b0a-9bc1-9084d4ba2e84: No remote router ID available for server-2
+2025-06-08T08:31:49.572Z [ERROR] [mediasoup-server]: Cannot pipe producer 4933e2de-b6b7-43ca-b5ef-5894c146908c: No remote router ID available for server-2
+2025-06-08T08:31:52.389Z [ERROR] [mediasoup-server]: Cannot pipe producer 6ed8e63a-27c5-4562-8db4-4bcf4a8cf30c: No remote router ID available for server-2
+2025-06-08T08:31:52.444Z [ERROR] [mediasoup-server]: Cannot pipe producer 953eb0e0-8035-4cd0-8b96-d0070cf62cc1: No remote router ID available for server-2
+2025-06-08T08:32:51.570Z [ERROR] [mediasoup-server]: Cannot pipe producer 6a3b27ee-616a-4f9e-9a49-0a72933f767e: No remote router ID available for server-2
+2025-06-08T08:32:51.593Z [ERROR] [mediasoup-server]: Cannot pipe producer 83d586e8-a1fc-4036-896c-67aa88e8b932: No remote router ID available for server-2
+2025-06-08T08:32:51.602Z [ERROR] [mediasoup-server]: Cannot pipe producer 34bf44f9-5ed2-4bde-b953-e074e0abda8b: No remote router ID available for server-2
+2025-06-08T08:32:51.627Z [ERROR] [mediasoup-server]: Cannot pipe producer 05fd0280-d684-47ee-8c4f-13ba66c2ab79: No remote router ID available for server-2
+2025-06-08T08:33:50.515Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:34:31.749Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:34:36.759Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T08:34:40.596Z [ERROR] [mediasoup-server]: Cannot pipe producer d472d0f2-3530-4deb-af72-67415fdd4d64: No remote router ID available for server-2
+2025-06-08T08:34:40.635Z [ERROR] [mediasoup-server]: Cannot pipe producer 20ffe5d6-10c8-41c8-9408-ce12e3388b91: No remote router ID available for server-2
+2025-06-08T08:37:35.386Z [ERROR] [mediasoup-server]: Cannot pipe producer fc80205b-72b5-4644-a1c9-d4fef36e8310: No remote router ID available for server-1
+2025-06-08T08:37:35.407Z [ERROR] [mediasoup-server]: Cannot pipe producer 24f839eb-2cfd-4726-af47-e956c9fd6fbf: No remote router ID available for server-1
+2025-06-08T08:38:17.311Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:38:22.332Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T08:38:26.494Z [ERROR] [mediasoup-server]: Cannot pipe producer b69d1e53-f9a6-4e60-a5fb-f363ac1de06d: No remote router ID available for server-2
+2025-06-08T08:38:26.524Z [ERROR] [mediasoup-server]: Cannot pipe producer f4c2b03c-e2bb-4d6c-b352-33e80ae2b8d2: No remote router ID available for server-2
+2025-06-08T08:42:57.075Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:43:02.089Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:44:52.711Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:44:57.729Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:49:51.293Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:49:51.611Z [ERROR] [mediasoup-server]: Cannot pipe producer 0a4e0fb8-55fd-44a9-88bd-ec774980e2ca: No remote router ID available for server-1
+2025-06-08T08:49:51.630Z [ERROR] [mediasoup-server]: Cannot pipe producer c883ba56-c1b1-4328-9ad9-cd684a18a135: No remote router ID available for server-1
+2025-06-08T08:49:56.304Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:01.316Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:06.326Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:11.339Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:16.351Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:21.363Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:26.368Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:31.383Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:36.393Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:41.398Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:46.404Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:51.408Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T08:50:57.489Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:51:04.529Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:51:09.551Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T08:56:05.886Z [ERROR] [mediasoup-server]: Cannot pipe producer eff5e4dc-e365-4ac4-ba47-c713673fc74b: No remote router ID available for server-1
+2025-06-08T08:56:05.907Z [ERROR] [mediasoup-server]: Cannot pipe producer 8e2d2179-14bd-4d23-be07-8c19eedc3f7f: No remote router ID available for server-1
+2025-06-08T08:56:18.253Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T08:56:23.260Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:16:15.697Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:18:07.046Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:19:12.266Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:20.721Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:25.728Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:30.745Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:35.753Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:36.897Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:41.904Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:46.911Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:51.923Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:20:56.931Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:21:01.937Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:21:06.947Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:21:12.295Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:23.149Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:28.159Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:33.176Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:38.187Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:43.190Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:48.200Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:53.215Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:25:58.219Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:03.238Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:08.255Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:13.271Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:18.285Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:23.290Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:28.304Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:33.312Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:38.322Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:43.332Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:48.346Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:53.361Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:26:58.373Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:03.388Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:08.393Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:13.396Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:18.399Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:23.415Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:28.430Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:33.441Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:38.457Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:43.467Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:48.470Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:53.484Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:27:58.492Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:03.495Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:08.509Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:13.520Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:18.531Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:23.547Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:28.563Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:33.577Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:38.579Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:43.593Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:48.602Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:53.610Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:28:58.622Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:03.624Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:08.628Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:13.633Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:18.643Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:23.657Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:28.663Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:33.675Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:38.688Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:43.691Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:48.705Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:53.713Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:29:58.724Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:03.741Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:08.756Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:13.757Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:18.774Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:23.778Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:28.785Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:33.788Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:38.802Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:43.816Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:48.821Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:53.823Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:30:58.827Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:03.830Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:08.831Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:13.843Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:18.856Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:23.869Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:28.874Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:33.891Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:38.893Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:43.904Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:48.907Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:53.915Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:31:58.929Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:03.933Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:08.944Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:13.958Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:18.973Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:23.990Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:29.908Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:32:43.303Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:32:48.324Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:32:53.332Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:32:58.344Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:03.352Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:08.358Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:13.371Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:18.382Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:23.389Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:28.395Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:33.407Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:38.424Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:43.435Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:48.444Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:53.455Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:33:58.465Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:03.481Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:08.495Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:13.511Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:18.523Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:23.534Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:28.548Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:33.558Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:38.566Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:43.571Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:48.577Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:53.584Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:34:58.599Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:03.604Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:08.617Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:13.620Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:18.636Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:23.650Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:28.665Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:33.669Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:38.679Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:43.692Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:48.694Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:53.711Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:35:58.727Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:36:03.740Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:36:51.009Z [ERROR] [mediasoup-server]: Error piping producer 2a5e7c09-eb7e-4daa-83f8-8fbdea15ed2b to remote server: Error: Pipe operation timed out for a7ced596-df13-46b8-9132-072cdada02bf after 30000ms
+2025-06-08T09:36:51.040Z [ERROR] [mediasoup-server]: Error piping producer 3dd1158e-18d3-489a-b879-596773498750 to remote server: Error: Pipe operation timed out for bea6c93b-e3f9-44e3-ad58-547a2f0d29d7 after 30000ms
+2025-06-08T09:41:00.295Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:41:54.009Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:42:52.810Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:42:57.830Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:43:02.846Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:43:07.849Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T09:43:13.945Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:43:18.962Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T09:43:21.750Z [ERROR] [mediasoup-server]: Cannot pipe producer 4af0062e-7488-4ce2-b334-5981f37ad81a: No remote router ID available for server-1
+2025-06-08T09:43:21.790Z [ERROR] [mediasoup-server]: Cannot pipe producer 400760c0-36ef-4eb8-a2a3-33bacce528ce: No remote router ID available for server-1
+2025-06-08T09:43:23.242Z [ERROR] [mediasoup-server]: Cannot pipe producer 5305ddcb-66f8-4108-9094-00938307e47b: No remote router ID available for server-2
+2025-06-08T09:43:23.281Z [ERROR] [mediasoup-server]: Cannot pipe producer f12b975e-ce7b-4713-a121-563ab68c2a9c: No remote router ID available for server-2
+2025-06-08T10:00:10.134Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:15.144Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:20.160Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:25.174Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:30.181Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:35.198Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:40.204Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:45.218Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:00:50.232Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:08:03.446Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:10:43.706Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:10:48.725Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T10:36:17.751Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:36:18.237Z [ERROR] [mediasoup-server]: Cannot pipe producer 19bc116d-77f1-4923-9c82-6eed958f3bde: No remote router ID available for server-2
+2025-06-08T10:36:18.305Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:130315368] [method:transport.produce]
+2025-06-08T10:36:18.309Z [ERROR] [mediasoup-server]: Cannot pipe producer 5aa34f75-8607-43c1-a269-32dac34fce72: No remote router ID available for server-2
+2025-06-08T10:36:18.317Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:4039059184] [method:transport.produce]
+2025-06-08T10:36:22.772Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T10:36:23.120Z [ERROR] [mediasoup-server]: Cannot pipe producer 37dc1fd0-8a1c-486d-895c-7201a18564fc: No remote router ID available for server-1
+2025-06-08T10:36:23.151Z [ERROR] [mediasoup-server]: Cannot pipe producer e5764ab4-fbde-40d6-9a36-23373e5617ba: No remote router ID available for server-1
+2025-06-08T10:36:52.624Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:36:57.642Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:37:02.645Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:37:07.654Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:37:12.515Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}
+2025-06-08T10:38:51.678Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:38:52.227Z [ERROR] [mediasoup-server]: Cannot pipe producer a7c0095b-188e-47e9-bd2c-538c1e9b344b: No remote router ID available for server-2
+2025-06-08T10:38:52.238Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:1466792557] [method:transport.produce]
+2025-06-08T10:38:52.269Z [ERROR] [mediasoup-server]: Cannot pipe producer 01928bd4-e049-4de4-8b7a-e3c25c78a00a: No remote router ID available for server-2
+2025-06-08T10:38:52.275Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:2023348405] [method:transport.produce]
+2025-06-08T10:38:56.689Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:38:59.975Z [ERROR] [mediasoup-server]: Cannot pipe producer 5af4e428-2de0-46a1-b38f-5535d79be566: No remote router ID available for server-1
+2025-06-08T10:38:59.992Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:1422610198] [method:transport.produce]
+2025-06-08T10:39:00.044Z [ERROR] [mediasoup-server]: Cannot pipe producer ee57c72d-b068-4c31-9fb6-cb1b58f1132d: No remote router ID available for server-1
+2025-06-08T10:39:00.064Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:2284054645] [method:transport.produce]
+2025-06-08T10:39:02.240Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:2864271395] [method:transport.produce]
+2025-06-08T10:39:02.291Z [ERROR] [mediasoup-server]: Error in transport-produce: ssrc already exists in RTP listener [ssrc:1907211055] [method:transport.produce]
+2025-06-08T10:47:24.038Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:47:27.019Z [ERROR] [mediasoup-server]: Cannot pipe producer e68b3fd8-6436-428b-9c68-a5b5481acd5b: No remote router ID available for server-2
+2025-06-08T10:47:27.037Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket U4FQN8fXxlD6xAueAAAB, kind audio: ssrc already exists in RTP listener [ssrc:2239004516] [method:transport.produce]
+2025-06-08T10:47:27.037Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket U4FQN8fXxlD6xAueAAAB, kind audio. Details: Error: ssrc already exists in RTP listener [ssrc:2239004516] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:47:27.074Z [ERROR] [mediasoup-server]: Cannot pipe producer 94dc0df6-aa1a-460c-9714-a07049a57f53: No remote router ID available for server-2
+2025-06-08T10:47:27.085Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket U4FQN8fXxlD6xAueAAAB, kind video: ssrc already exists in RTP listener [ssrc:208830940] [method:transport.produce]
+2025-06-08T10:47:27.085Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket U4FQN8fXxlD6xAueAAAB, kind video. Details: Error: ssrc already exists in RTP listener [ssrc:208830940] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:47:27.403Z [ERROR] [mediasoup-server]: Cannot pipe producer 1995ee33-6586-40a9-ad72-27cc13637e4e: No remote router ID available for server-1
+2025-06-08T10:47:27.420Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket ijFEH0zarhJrQZtyAAAB, kind audio: ssrc already exists in RTP listener [ssrc:489183226] [method:transport.produce]
+2025-06-08T10:47:27.420Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket ijFEH0zarhJrQZtyAAAB, kind audio. Details: Error: ssrc already exists in RTP listener [ssrc:489183226] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:47:27.468Z [ERROR] [mediasoup-server]: Cannot pipe producer b09ffb68-e709-48f6-9650-19a4818f6143: No remote router ID available for server-1
+2025-06-08T10:47:27.484Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket ijFEH0zarhJrQZtyAAAB, kind video: ssrc already exists in RTP listener [ssrc:2388195141] [method:transport.produce]
+2025-06-08T10:47:27.484Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket ijFEH0zarhJrQZtyAAAB, kind video. Details: Error: ssrc already exists in RTP listener [ssrc:2388195141] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:47:51.928Z [ERROR] [mediasoup-server]: Cannot pipe producer b7a37f1d-bd8e-4083-903f-634fb6eef9f5: No remote router ID available for server-1
+2025-06-08T10:47:51.934Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket Ss0najubTylwTjiqAAAB, kind audio: ssrc already exists in RTP listener [ssrc:2622816279] [method:transport.produce]
+2025-06-08T10:47:51.935Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket Ss0najubTylwTjiqAAAB, kind audio. Details: Error: ssrc already exists in RTP listener [ssrc:2622816279] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:47:51.962Z [ERROR] [mediasoup-server]: Cannot pipe producer 935920f3-51fe-4d42-acf2-442d125f0c8a: No remote router ID available for server-1
+2025-06-08T10:47:51.966Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket Ss0najubTylwTjiqAAAB, kind video: ssrc already exists in RTP listener [ssrc:2364020454] [method:transport.produce]
+2025-06-08T10:47:51.967Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket Ss0najubTylwTjiqAAAB, kind video. Details: Error: ssrc already exists in RTP listener [ssrc:2364020454] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:48:12.176Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:48:17.201Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:60:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T10:48:31.744Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket Hp8VGDwLlmq0HZu9AAAD, kind audio: ssrc already exists in RTP listener [ssrc:3903050330] [method:transport.produce]
+2025-06-08T10:48:31.744Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket Hp8VGDwLlmq0HZu9AAAD, kind audio. Details: Error: ssrc already exists in RTP listener [ssrc:3903050330] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:48:31.829Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket Hp8VGDwLlmq0HZu9AAAD, kind video: ssrc already exists in RTP listener [ssrc:2085512408] [method:transport.produce]
+2025-06-08T10:48:31.830Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket Hp8VGDwLlmq0HZu9AAAD, kind video. Details: Error: ssrc already exists in RTP listener [ssrc:2085512408] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:48:33.974Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket RGFcfMpw4-B-8_OhAAAD, kind audio: ssrc already exists in RTP listener [ssrc:3898886741] [method:transport.produce]
+2025-06-08T10:48:33.975Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket RGFcfMpw4-B-8_OhAAAD, kind audio. Details: Error: ssrc already exists in RTP listener [ssrc:3898886741] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:48:34.433Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket RGFcfMpw4-B-8_OhAAAD, kind video: ssrc already exists in RTP listener [ssrc:3587094225] [method:transport.produce]
+2025-06-08T10:48:34.433Z [ERROR] [mediasoup-server]: !!! CASCADE_SSRC_CONFLICT_DETECTED !!! SSRC conflict for socket RGFcfMpw4-B-8_OhAAAD, kind video. Details: Error: ssrc already exists in RTP listener [ssrc:3587094225] [method:transport.produce]
+    at Channel.processResponse (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:251:33)
+    at Socket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\mediasoup\node\lib\Channel.js:76:34)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-06-08T10:53:54.651Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:54:07.998Z [ERROR] [mediasoup-server]: Standard logger: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket soNeItHi_9oLmN8sAAAD, kind audio: ssrc already exists in RTP listener [ssrc:2983330452] [method:transport.produce]
+2025-06-08T10:54:08.092Z [ERROR] [mediasoup-server]: Standard logger: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket soNeItHi_9oLmN8sAAAD, kind video: ssrc already exists in RTP listener [ssrc:2163476425] [method:transport.produce]
+2025-06-08T10:54:09.345Z [ERROR] [mediasoup-server]: Standard logger: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket 9aXsZjNjRAfyb7UTAAAD, kind audio: ssrc already exists in RTP listener [ssrc:3996856433] [method:transport.produce]
+2025-06-08T10:54:09.820Z [ERROR] [mediasoup-server]: Standard logger: !!! CASCADE_SSRC_DEBUG !!! Error in transport-produce for socket 9aXsZjNjRAfyb7UTAAAD, kind video: ssrc already exists in RTP listener [ssrc:2970439435] [method:transport.produce]
+2025-06-08T10:55:27.170Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:55:32.179Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:58:13.607Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-08T10:58:18.630Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:63:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-08T14:25:20.621Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8080
+}

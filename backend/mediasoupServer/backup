@@ -1,0 +1,1322 @@
+process.env.DEBUG = "mediasoup*";
+const mediasoup = require("mediasoup");
+const { AwaitQueue } = require("awaitqueue");
+const os = require("os");
+const promClient = require("prom-client");
+const axios = require("axios");
+var pidusage = require("pidusage");
+const redis = require("redis");
+
+const {
+  createWorker,
+  createWebRtcTransport,
+  pipeProducersBetweenRouters,
+} = require("./LogicalFunctions/Basicfunctions");
+
+module.exports = async function (io) {
+  // Initialize Redis client
+  // const redisClient = redis.createClient();
+  // redisClient.on("error", (err) => console.error("Redis Client Error:", err));
+  // redisClient.connect();
+
+  const roomQueue = new AwaitQueue();
+
+  // Worker and Room State Management
+  const workerState = {
+    workers: new Map(), // Map<workerId, {worker, router, load, stats}>
+    rooms: new Map(),   // Map<roomName, {router, peers, workerId, stats}>
+  };
+
+  // Worker scaling thresholds
+  const WORKER_THRESHOLDS = {
+    CPU_HIGH: 80, // CPU usage above 80% triggers scaling
+    CPU_LOW: 30,  // CPU usage below 30% triggers potential worker removal
+    MAX_WORKERS: os.cpus().length, // Maximum workers (1 per core)
+    MIN_WORKERS: 1,  // Minimum workers to maintain
+    INITIAL_WORKERS: Math.max(1, Math.ceil(os.cpus().length / 4)) // Start with quarter of max workers
+  };
+
+  let worker;
+  let workermap = new Map();
+  let rooms = new Map(); // { roomName1: { Router, rooms: [ sicketId1, ... ] }, ...}
+  let peers = new Map(); // { socketId1: { roomName1, socket, transports = [id1, id2,] }, producers = [id1, id2,], peerDetails }, ...}
+  let transports = new Map(); // [ { socketId1, roomName1, transport, consumer }, ... ]
+  let producers = []; // [ { socketId1, roomName1, producer, }, ... ]
+  let consumers = []; // [ { socketId1, roomName1, consumer, }, ... ]
+  let Peerstrack = [];
+  let alreadyPipedProducersforcheck = new Set();
+  let alreadyPipedProducer = new Set();
+  let Roomfull = false;
+  let Currentindex = 0;
+  let Remoteindex = 0;
+  const participantRouterMap = new Map();
+  const producerRouterMap = new Map();
+  let Trakpiped = new Map();
+
+  const mediaCodecs = [
+    {
+      kind: "audio",
+      mimeType: "audio/opus",
+      clockRate: 48000,
+      channels: 2,
+    },
+    {
+      kind: "video",
+      mimeType: "video/VP8",
+      clockRate: 90000,
+      parameters: {
+        "x-google-start-bitrate": 1000,
+      },
+    },
+  ];
+
+  // Initialize Prometheus metrics
+  const metrics = {
+    cpuUsage: new promClient.Gauge({
+      name: "mediasoup_worker_cpu_usage",
+      help: "CPU usage of mediasoup workers",
+      labelNames: ["worker_id"],
+    }),
+    memoryUsage: new promClient.Gauge({
+      name: "mediasoup_worker_memory_usage",
+      help: "Memory usage of mediasoup workers in MB",
+      labelNames: ["worker_id"],
+    }),
+    transportBandwidth: new promClient.Gauge({
+      name: "mediasoup_transport_bandwidth",
+      help: "Bandwidth usage of WebRTC transports in MB",
+      labelNames: ["transport_id", "direction"],
+    }),
+    activeUsers: new promClient.Gauge({
+      name: "mediasoup_active_users",
+      help: "Number of active users in the system",
+    }),
+  };
+
+  // Update the setInterval monitoring to include scaling decisions
+  setInterval(async () => {
+    try {
+      let highLoadWorkersCount = 0;
+      let lowLoadWorkersCount = 0;
+
+      // CPU and Memory Usage monitoring
+      for (const [workerId, workerData] of workerState.workers.entries()) {
+        const { worker } = workerData;
+        const usage = await pidusage(worker.pid);
+        
+        // Update worker stats
+        workerData.stats.cpu = usage.cpu;
+        workerData.stats.memory = usage.memory / 1024 / 1024;
+        workerData.stats.lastUpdated = Date.now();
+
+        // Update Prometheus metrics
+        metrics.cpuUsage.labels(worker.pid).set(usage.cpu);
+        metrics.memoryUsage.labels(worker.pid).set(workerData.stats.memory);
+
+        // Count workers by load
+        if (usage.cpu > WORKER_THRESHOLDS.CPU_HIGH) {
+          highLoadWorkersCount++;
+        } else if (usage.cpu < WORKER_THRESHOLDS.CPU_LOW) {
+          lowLoadWorkersCount++;
+        }
+
+        console.log(
+          `Worker ${workerId} - PID: ${worker.pid}, CPU: ${usage.cpu.toFixed(2)}%, Memory: ${workerData.stats.memory.toFixed(2)} MB`
+        );
+      }
+
+      // Scale up if needed
+      if (highLoadWorkersCount > 0 && workerState.workers.size < WORKER_THRESHOLDS.MAX_WORKERS) {
+        console.log(`Scaling up: ${highLoadWorkersCount} workers with high CPU usage`);
+        await createNewWorkerAndRebalance();
+      }
+
+      // Scale down if possible
+      if (lowLoadWorkersCount > 1 && workerState.workers.size > WORKER_THRESHOLDS.MIN_WORKERS) {
+        console.log(`Scaling down: ${lowLoadWorkersCount} workers with low CPU usage`);
+        await consolidateUnderutilizedWorkers();
+      }
+
+      // Transport bandwidth monitoring
+      for (const [transportId, transportData] of transports.entries()) {
+        const { transport } = transportData;
+        if (transport && !transport.closed) {
+          const stats = await transport.getStats();
+          stats.forEach((stat) => {
+            const bytesSent = stat.bytesSent / 1024 / 1024;
+            const bytesReceived = stat.bytesReceived / 1024 / 1024;
+
+            // Update Prometheus metrics
+            metrics.transportBandwidth
+              .labels(transportId, "sent")
+              .set(bytesSent);
+            metrics.transportBandwidth
+              .labels(transportId, "received")
+              .set(bytesReceived);
+
+            console.log(
+              `Transport ${transportId} - Bandwidth: ${bytesSent} MB sent, ${bytesReceived} MB received`
+            );
+          });
+        }
+      }
+
+      // Update active users metric
+      metrics.activeUsers.set(peers.size);
+    } catch (error) {
+      console.error("Error in resource monitoring:", error);
+    }
+  }, 5000); // Every 5 seconds
+
+  async function createWorkers() {
+    // Start with initial workers instead of maximum
+    const totalWorkers = WORKER_THRESHOLDS.INITIAL_WORKERS;
+    
+    for (let i = 0; i < totalWorkers; i++) {
+      const worker = await mediasoup.createWorker({
+        logLevel: "debug",
+        logTags: ["rtp", "srtp", "rtcp"],
+        rtcMinPort: 10000 + (i * 1000),
+        rtcMaxPort: 10999 + (i * 1000),
+      });
+
+      worker.on("died", () => {
+        console.error(`mediasoup worker ${worker.pid} has died`);
+        handleWorkerFailover(worker.pid);
+      });
+
+      const router = await worker.createRouter({ mediaCodecs });
+      
+      workerState.workers.set(worker.pid, {
+        worker,
+        router,
+        load: 0,
+        stats: {
+          cpu: 0,
+          memory: 0,
+          peers: 0,
+          producers: 0,
+          consumers: 0,
+          lastUpdated: Date.now()
+        }
+      });
+
+      console.log(`Created initial worker ${i + 1}/${totalWorkers} with PID: ${worker.pid}`);
+    }
+  }
+
+  await createWorkers();  
+
+  async function handleWorkerFailover(failedWorkerId) {
+    const failedWorker = workerState.workers.get(failedWorkerId);
+    if (!failedWorker) return;
+
+    // Find rooms affected by worker failure
+    const affectedRooms = Array.from(workerState.rooms.entries())
+      .filter(([_, room]) => room.workerId === failedWorkerId)
+      .map(([roomName, _]) => roomName);
+
+    // Remove failed worker
+    workerState.workers.delete(failedWorkerId);
+
+    // Create a replacement worker
+    const newWorker = await mediasoup.createWorker({
+      logLevel: "debug",
+      logTags: ["rtp", "srtp", "rtcp"],
+      rtcMinPort: 10000 + (workerState.workers.size * 1000),
+      rtcMaxPort: 10999 + (workerState.workers.size * 1000),
+    });
+
+    const newRouter = await newWorker.createRouter({ mediaCodecs });
+    
+    workerState.workers.set(newWorker.pid, {
+      worker: newWorker,
+      router: newRouter,
+      load: 0,
+      stats: {
+        cpu: 0,
+        memory: 0,
+        peers: 0,
+        producers: 0,
+        consumers: 0,
+        lastUpdated: Date.now()
+      }
+    });
+
+    // Migrate affected rooms to the new worker or other available workers
+    for (const roomName of affectedRooms) {
+      const targetWorker = findOptimalWorker();
+      if (targetWorker) {
+        await migrateRoom(roomName, targetWorker.worker.pid);
+      }
+    }
+  }
+
+  function findOptimalWorker() {
+    let bestWorker = null;
+    let lowestScore = Infinity;
+
+    for (const [_, workerData] of workerState.workers) {
+      // Calculate a score based on multiple metrics
+      const score = calculateWorkerScore(workerData);
+      
+      if (score < lowestScore) {
+        lowestScore = score;
+        bestWorker = workerData;
+      }
+    }
+
+    return bestWorker;
+  }
+
+  function calculateWorkerScore(workerData) {
+    const { stats, load } = workerData;
+    
+    // Weight different factors
+    const cpuWeight = 0.4;
+    const memoryWeight = 0.3;
+    const loadWeight = 0.3;
+
+    // Normalize values to 0-1 range
+    const cpuScore = stats.cpu / 100;
+    const memoryScore = stats.memory / (1024 * 1024 * 1024); // Normalize to GB
+    const loadScore = load / 100;
+
+    return (cpuScore * cpuWeight) + (memoryScore * memoryWeight) + (loadScore * loadWeight);
+  }
+
+  async function migrateRoom(roomName, targetWorkerId) {
+    const room = workerState.rooms.get(roomName);
+    const targetWorker = workerState.workers.get(targetWorkerId);
+    
+    if (!room || !targetWorker) return;
+
+    const oldWorkerId = room.workerId;
+    const oldWorker = workerState.workers.get(oldWorkerId);
+
+    // Create new router in target worker
+    const newRouter = await targetWorker.worker.createRouter({ mediaCodecs });
+    
+    // Update room data
+    room.router = newRouter;
+    room.workerId = targetWorkerId;
+    
+    // Update worker loads
+    if (oldWorker) {
+      oldWorker.load = Math.max(0, oldWorker.load - room.peers.size);
+    }
+    targetWorker.load += room.peers.size;
+
+    // Re-pipe all producers to the new router
+    const pipePromises = Array.from(room.peers).map(async (socketId) => {
+      const peer = peers.get(socketId);
+      if (!peer) return;
+
+      for (const producerId of peer.producers) {
+        const producer = producers.find(p => p.producer.id === producerId)?.producer;
+        if (producer) {
+          await pipeProducersBetweenRouters({
+            producerIds: producerId,
+            sourceRouter: oldWorker?.router,
+            targetRouter: newRouter,
+          });
+        }
+      }
+    });
+
+    await Promise.all(pipePromises);
+  }
+
+  async function createRoom(roomName, socketId) {
+    return roomQueue.push(async () => {
+      let room = workerState.rooms.get(roomName);
+
+      if (!room) {
+        // Find best available worker
+        const workerData = Array.from(workerState.workers.entries())
+          .reduce((best, [_, current]) => {
+            if (!best || current.stats.cpu < best.stats.cpu) {
+              return current;
+            }
+            return best;
+          }, null);
+
+        if (!workerData) {
+          // Fallback to existing workermap if no workers in new system
+          const router = workermap.get(Currentindex)?.router;
+          if (!router) {
+            throw new Error("No available workers");
+          }
+          room = { router, peers: new Set([socketId]) };
+          rooms.set(roomName, room);
+        } else {
+          room = {
+            router: workerData.router,
+            peers: new Set([socketId]),
+            workerId: workerData.worker.pid,
+            stats: {
+              numPeers: 1,
+              numProducers: 0,
+              numConsumers: 0,
+              lastUpdated: Date.now()
+            }
+          };
+          workerState.rooms.set(roomName, room);
+          workerData.load++;
+          workerData.stats.peers++;
+        }
+      } else {
+        room.peers.add(socketId);
+        if (room.stats) {
+          room.stats.numPeers++;
+          room.stats.lastUpdated = Date.now();
+          
+          const workerData = workerState.workers.get(room.workerId);
+          if (workerData) {
+            workerData.load++;
+            workerData.stats.peers++;
+          }
+        }
+      }
+
+      return room.router;
+    });
+  }
+
+  function getSourceRouterForProducer(producerId) {
+    const workerId = producerRouterMap.get(producerId);
+    if (workerId !== undefined) {
+      const workerData = workerState.workers.get(workerId);
+      return workerData ? workerData.router : null;
+    }
+    console.error("Producer not associated with any router.");
+    return null;
+  }
+
+  // Add pipe tracking map
+  const producerPipeMap = new Map(); // Map<producerId, Set<targetWorkerId>>
+
+  async function pipeProducerToWorker(producerId, producerSocket, socket) {
+    let pipeConsumer = null;
+    let pipeProducer = null;
+    
+    try {
+        const sourceWorkerId = producerRouterMap.get(producerId);
+        const sourceWorkerData = workerState.workers.get(sourceWorkerId);
+        if (!sourceWorkerData) {
+            console.error(`Source worker not found for producer ${producerId}`);
+            return;
+        }
+
+        // Get or create the set of workers this producer is piped to
+        if (!producerPipeMap.has(producerId)) {
+            producerPipeMap.set(producerId, new Set());
+        }
+        const pipedWorkers = producerPipeMap.get(producerId);
+
+        // Restore check for existing pipe transport
+        if (alreadyPipedProducer.has(producerId)) {
+            console.log("Producer already has pipe transport:", producerId);
+            return;
+        }
+
+        // Find optimal target worker
+        const targetWorkerData = findOptimalWorker();
+        if (!targetWorkerData || 
+            targetWorkerData.worker.pid === sourceWorkerId || 
+            pipedWorkers.has(targetWorkerData.worker.pid)) {
+            console.log("No suitable target worker found or already piped");
+            return;
+        }
+
+        console.log(`Piping producer ${producerId} from worker ${sourceWorkerId} to worker ${targetWorkerData.worker.pid}`);
+
+        const result = await pipeProducersBetweenRouters({
+            producerIds: producerId,
+            sourceRouter: sourceWorkerData.router,
+            targetRouter: targetWorkerData.router
+        });
+
+        pipeConsumer = result.pipeConsumer;
+        pipeProducer = result.pipeProducer;
+
+        if (!pipeConsumer || !pipeProducer) {
+            console.log("Failed to create pipe consumer or producer");
+            return;
+        }
+
+        // Track both new and old tracking systems for compatibility
+        pipedWorkers.add(targetWorkerData.worker.pid);
+        alreadyPipedProducer.add(pipeConsumer.id);
+
+        await pipeProducer.on("transportclose", () => {
+            console.log("Transport for producer closed");
+            if (pipeProducer && !pipeProducer.closed) {
+                pipeProducer.close();
+            }
+            pipedWorkers.delete(targetWorkerData.worker.pid);
+            if (pipeConsumer && !pipeConsumer.closed) {
+                alreadyPipedProducer.delete(pipeConsumer.id);
+            }
+        });
+
+        await socket.emit("new-producer-piped", {
+            producerId: pipeConsumer.id,
+            workerId: targetWorkerData.worker.pid
+        });
+
+        Trakpiped.set(pipeConsumer.id, targetWorkerData.router);
+        
+        // Update worker stats
+        targetWorkerData.stats.producers++;
+        console.log(`Successfully piped producer ${producerId} to worker ${targetWorkerData.worker.pid}`);
+    } catch (error) {
+        console.error("Error in piping producer:", error);
+        const pipedWorkers = producerPipeMap.get(producerId);
+        if (pipedWorkers) {
+            pipedWorkers.clear();
+        }
+        if (pipeConsumer && !pipeConsumer.closed) {
+            alreadyPipedProducer.delete(pipeConsumer.id);
+            pipeConsumer.close();
+        }
+        if (pipeProducer && !pipeProducer.closed) {
+            pipeProducer.close();
+        }
+    }
+  }
+
+  async function pipeExistingProducersToTargetRouter(socket) {
+    console.log("Piping existing producers to new router");
+    const processedProducers = new Set();
+
+    for (let producerData of producers) {
+        let pipeConsumer = null;
+        let pipeProducer = null;
+
+        if (!producerData.producer.id || processedProducers.has(producerData.producer.id)) continue;
+        
+        const sourceWorkerId = producerRouterMap.get(producerData.producer.id);
+        const sourceWorkerData = workerState.workers.get(sourceWorkerId);
+        if (!sourceWorkerData || !sourceWorkerData.router) continue;
+
+        // Get or create the set of workers this producer is piped to
+        if (!producerPipeMap.has(producerData.producer.id)) {
+            producerPipeMap.set(producerData.producer.id, new Set());
+        }
+        const pipedWorkers = producerPipeMap.get(producerData.producer.id);
+
+        // Restore check for existing pipe transport
+        if (alreadyPipedProducer.has(producerData.producer.id)) {
+            console.log("Producer already has pipe transport:", producerData.producer.id);
+            continue;
+        }
+
+        // Find least loaded worker that hasn't been piped to yet
+        const targetWorkerData = Array.from(workerState.workers.values())
+            .find(worker => 
+                worker.worker.pid !== sourceWorkerId && 
+                !pipedWorkers.has(worker.worker.pid) &&
+                worker.stats.cpu < WORKER_THRESHOLDS.CPU_HIGH);
+
+        if (!targetWorkerData) continue;
+
+        try {
+            console.log(`Piping producer ${producerData.producer.id} to new worker`);
+            
+            const result = await pipeProducersBetweenRouters({
+                producerIds: producerData.producer.id,
+                sourceRouter: sourceWorkerData.router,
+                targetRouter: targetWorkerData.router
+            });
+
+            pipeConsumer = result.pipeConsumer;
+            pipeProducer = result.pipeProducer;
+
+            if (!pipeProducer || !pipeConsumer) {
+                console.log("Failed to create pipe consumer or producer");
+                continue;
+            }
+
+            // Track both new and old tracking systems for compatibility
+            pipedWorkers.add(targetWorkerData.worker.pid);
+            processedProducers.add(producerData.producer.id);
+            alreadyPipedProducer.add(pipeConsumer.id);
+
+            await socket.emit("new-producer-piped", {
+                producerId: pipeConsumer.id,
+                workerId: targetWorkerData.worker.pid
+            });
+
+            Trakpiped.set(pipeConsumer.id, targetWorkerData.router);
+            
+            // Update worker stats
+            targetWorkerData.stats.producers++;
+            console.log(`Successfully piped producer ${producerData.producer.id} to worker ${targetWorkerData.worker.pid}`);
+        } catch (error) {
+            console.error("Error piping producer:", error);
+            pipedWorkers.delete(targetWorkerData.worker.pid);
+            if (pipeConsumer && !pipeConsumer.closed) {
+                alreadyPipedProducer.delete(pipeConsumer.id);
+                pipeConsumer.close();
+            }
+            if (pipeProducer && !pipeProducer.closed) {
+                pipeProducer.close();
+            }
+        }
+    }
+  }
+
+  const getTransport = (socketId) => {
+    for (let [transportId, transportData] of transports.entries()) {
+      if (transportData.socketId === socketId && !transportData.consumer) {
+        return transportData.transport;
+      }
+    }
+    console.error(`Transport not found for socket ID: ${socketId}`);
+    return null;
+  };
+
+  const informConsumers = (roomName, socketId, producerId, socket) => {
+    console.log(`Informing consumers about new producer ${producerId} in room ${roomName}`);
+
+    producers.forEach((producerData) => {
+      if (producerData.socketId !== socketId && producerData.roomName === roomName) {
+        if (peers.has(producerData.socketId)) {
+          const producerSocket = peers.get(producerData.socketId).socket;
+          const workerId = producerRouterMap.get(producerId);
+          
+          socket.broadcast.to(roomName).emit("new-producer", {
+            producerId,
+            workerId
+          });
+
+          pipeProducerToWorker(producerId, producerSocket, socket);
+        } else {
+          console.log(`Producer not found in peers: ${producerData.socketId}`);
+        }
+      }
+    });
+  };
+
+  // Now, pipe the new participant's producer to all other routers
+
+  io.on("connection", (socket) => {
+    console.log(`peer joined ${socket.id}`);
+    socket.emit("connection-success", { socketID: socket.id });
+
+    const removeItems = (items, socketId, type) => {
+      if (!Array.isArray(items)) {
+        console.error("items is not an array");
+        return items;
+      }
+
+      items.forEach((item) => {
+        if (item.socketId === socket.id) {
+          item[type].close();
+        }
+      });
+
+      items = items.filter((item) => item.socketId !== socket.id);
+
+      return items;
+    };
+
+    const addTransport = async (transport, roomName, consumer) => {
+      transports.set(transport.id, {
+        socketId: socket.id,
+        transport,
+        roomName,
+        consumer,
+      });
+
+      let peer = peers.get(socket.id);
+
+      await peer?.transports?.push(transport.id);
+      peers.set(socket.id, peer);
+    };
+
+    const addProducer = async (producer, roomName, kind) => {
+      if (producers.some((p) => p.producer.id === producer.id)) {
+        console.warn(`Producer ${producer.id} already exists.`);
+        return;
+      }
+
+      producers = [
+        ...producers,
+        { socketId: socket.id, producer, roomName, kind },
+      ];
+      console.log(producer.id);
+
+      let peer = peers.get(socket.id);
+      peer.producers.push(producer.id);
+      peers.set(socket.id, peer);
+    };
+
+    const addConsumer = (consumer, roomName) => {
+      if (consumers.some((c) => c.consumer.id === consumer.id)) {
+        console.warn(`Consumer ${consumer.id} already exists.`);
+        return;
+      }
+
+      consumers = [...consumers, { socketId: socket.id, consumer, roomName }];
+
+      let peer = peers.get(socket.id);
+      peer.consumers.push(consumer.id);
+      peers.set(socket.id, peer);
+    };
+
+    socket.on("joinRoom", async ({ roomName }, callback) => {
+      if (peers.has(socket.id)) {
+        console.warn(`Socket ${socket.id} is already in a room.`);
+        return callback({ error: "You are already in a room." });
+      }
+
+      try {
+        const router = await createRoom(roomName, socket.id);
+        const room = workerState.rooms.get(roomName);
+        
+        // Get all available routers for compatibility with frontend
+        const availableRouters = Array.from(workerState.workers.values())
+          .map(workerData => workerData.router.rtpCapabilities);
+        
+        peers.set(socket.id, {
+          socket,
+          roomName,
+          transports: [],
+          producers: [],
+          consumers: [],
+          peerDetails: {
+            name: "",
+            isAdmin: false,
+          },
+        });
+
+        socket.roomName = roomName;
+        socket.join(roomName);
+
+        const producerStates = producers
+          .filter((producerData) => producerData.roomName === roomName)
+          .map((producerData) => ({
+            producerId: producerData.producer.id,
+            isPaused: producerData.producer.paused,
+            workerId: producerRouterMap.get(producerData.producer.id)
+          }));
+
+        // Send response in format expected by frontend
+        callback({
+          Routers: availableRouters,
+          Currentindex: workerState.workers.size > 0 ? 0 : 0, // Default to first router
+          producerStates,
+        });
+
+        // Update worker and room stats
+        if (room) {
+          const workerData = workerState.workers.get(room.workerId);
+          if (workerData) {
+            workerData.stats.peers++;
+            workerData.load++;
+          }
+        }
+      } catch (error) {
+        console.error("Error joining room:", error);
+        callback({ error: "Failed to join room" });
+      }
+    });
+
+    socket.on("getRouterindex", async ({ producerid }, callback) => {
+      const workerId = producerRouterMap.get(producerid);
+      const workerIndex = Array.from(workerState.workers.keys()).indexOf(workerId);
+      
+      callback({
+        index: workerIndex >= 0 ? workerIndex : 0
+      });
+    });
+
+    socket.on("getProducers", async (callback) => {
+      const roomName = peers.get(socket.id)?.roomName;
+      if (!roomName) {
+        callback([]);
+        return;
+      }
+
+      const room = workerState.rooms.get(roomName);
+      if (!room) {
+        callback([]);
+        return;
+      }
+
+      const roomProducers = producers
+        .filter(p => p.roomName === roomName)
+        .map(p => p.producer.id);
+
+      callback(roomProducers);
+
+      // After sending producers, pipe them if needed
+      await pipeExistingProducersToTargetRouter(socket);
+    });
+
+    socket.on("new-producer", async ({ producerId, workerId }) => {
+      const room = workerState.rooms.get(socket.roomName);
+      if (!room) return;
+
+      // Update producer-worker mapping
+      producerRouterMap.set(producerId, workerId);
+      
+      // Notify room participants
+      socket.broadcast.to(socket.roomName).emit("new-producer", {
+        producerId,
+        workerId
+      });
+    });
+
+    socket.on("transport-connect", ({ dtlsParameters }) => {
+      console.log("DTLS PARAMS... ", { dtlsParameters });
+
+      getTransport(socket.id).connect({ dtlsParameters });
+    });
+
+    socket.on(
+      "createWebRtcTransport",
+      async ({ consumer, RouterId }, callback) => {
+        const peer = peers.get(socket.id);
+        if (!peer) {
+          console.error(`No peer found for socket ID: ${socket.id}`);
+          return;
+        }
+        const roomName = peer.roomName;
+        const room = workerState.rooms.get(roomName);
+
+        let router;
+        if (room) {
+          // Use the room's assigned worker
+          const workerData = workerState.workers.get(room.workerId);
+          router = workerData.router;
+        } else {
+          // Fallback to existing workermap for backward compatibility
+          router = workermap.get(Currentindex)?.router;
+        }
+
+        if (!router) {
+          console.error('No router available');
+          return callback({ error: 'No router available' });
+        }
+
+        try {
+          const transport = await createWebRtcTransport(router);
+          callback({
+            params: {
+              id: transport.id,
+              iceParameters: transport.iceParameters,
+              iceCandidates: transport.iceCandidates,
+              dtlsParameters: transport.dtlsParameters,
+            },
+          });
+
+          // add transport to Peer's properties
+          await addTransport(transport, roomName, consumer);
+
+          console.log(`Transport created for ${consumer ? "Consumer" : "Producer"}`);
+        } catch (error) {
+          console.error('Error creating WebRTC transport:', error);
+          callback({ error: error.message });
+        }
+      }
+    );
+
+    socket.on("transport-produce", async ({ kind, rtpParameters, appData }, callback) => {
+      const peer = peers.get(socket.id);
+      if (!peer) {
+        console.log(`Peer does not exist for socket ID: ${socket.id}`);
+        return callback({ error: "Peer not found." });
+      }
+
+      return roomQueue.push(async () => {
+        try {
+          const transport = getTransport(socket.id);
+          if (!transport) {
+            throw new Error('Transport not found');
+          }
+
+          let producer;
+          // Restore video-specific encoding parameters
+          if (kind === "video") {
+            producer = await transport.produce({
+              kind,
+              rtpParameters,
+              encodings: [
+                { rid: "r0", maxBitrate: 100000, scalabilityMode: "S1T3" },
+                { rid: "r1", maxBitrate: 300000, scalabilityMode: "S1T3" },
+                { rid: "r2", maxBitrate: 900000, scalabilityMode: "S1T3" },
+              ],
+              codecOptions: {
+                videoGoogleStartBitrate: 1000,
+              },
+            });
+          } else {
+            producer = await transport.produce({
+              kind,
+              rtpParameters,
+            });
+          }
+
+          const room = workerState.rooms.get(peer.roomName);
+          if (room) {
+            // Update worker stats
+            const workerData = workerState.workers.get(room.workerId);
+            if (workerData) {
+              workerData.stats.producers++;
+              producerRouterMap.set(producer.id, room.workerId);
+            }
+          }
+
+          // Add producer to the room's collection
+          await addProducer(producer, peer.roomName, kind);
+
+          // Inform other consumers
+          informConsumers(peer.roomName, socket.id, producer.id, socket);
+
+          producer.on("transportclose", () => {
+            console.log("transport for this producer closed ");
+            producer.close();
+          });
+
+          callback({
+            id: producer.id,
+            producersExist: producers.length > 1,
+          });
+
+        } catch (error) {
+          console.error('Error in transport-produce:', error);
+          callback({ error: error.message });
+        }
+      });
+    });
+
+    socket.on(
+      "transport-recv-connect",
+      async ({ dtlsParameters, serverConsumerTransportId }) => {
+        const consumerTransport = transports.get(
+          serverConsumerTransportId
+        )?.transport;
+
+        if (consumerTransport) {
+          await consumerTransport.connect({ dtlsParameters });
+        } else {
+          console.log(`${consumerTransport} not a transport`);
+        }
+      }
+    );
+
+    function removeItemsFromCollections(socketId) {
+      producers = producers.filter((p) => p.socketId !== socketId);
+      consumers = consumers.filter((c) => c.socketId !== socket.id);
+      transports = transports.filter((t) => t.socketId !== socket.id);
+
+      peers.delete(socketId);
+      console.log(`Cleaned up resources for ${socketId}`);
+    }
+
+    socket.on(
+      "consume",
+      async ({ rtpCapabilities, remoteProducerId, serverConsumerTransportId }, callback) => {
+        try {
+          const peer = peers.get(socket.id);
+          if (!peer) {
+            throw new Error("Peer not found");
+          }
+
+          const roomName = peer.roomName;
+          const room = workerState.rooms.get(roomName);
+          if (!room) {
+            throw new Error("Room not found");
+          }
+
+          // Get the worker that has the producer
+          let producerWorker = null;
+          let producer = null;
+          
+          // First check if it's a piped producer
+          if (alreadyPipedProducer.has(remoteProducerId)) {
+            const router = Trakpiped.get(remoteProducerId);
+            if (router) {
+              producerWorker = Array.from(workerState.workers.values())
+                .find(w => w.router === router);
+            }
+          } else {
+            // Get the original producer's worker
+            const workerId = producerRouterMap.get(remoteProducerId);
+            producerWorker = workerState.workers.get(workerId);
+          }
+
+          if (!producerWorker) {
+            throw new Error("Producer's worker not found");
+          }
+
+          // Find the producer
+          const producerData = producers.find(p => p.producer.id === remoteProducerId);
+          if (!producerData) {
+            throw new Error("Producer not found");
+          }
+          producer = producerData.producer;
+
+          // Check if the consumer's router can consume the producer
+          if (!producerWorker.router.canConsume({
+            producerId: remoteProducerId,
+            rtpCapabilities,
+          })) {
+            throw new Error("Router cannot consume the producer");
+          }
+
+          // Get consumer transport
+          const transport = transports.get(serverConsumerTransportId)?.transport;
+          if (!transport) {
+            throw new Error("Consumer transport not found");
+          }
+
+          // Create consumer
+          const consumer = await transport.consume({
+            producerId: remoteProducerId,
+            rtpCapabilities,
+            paused: true,
+          });
+
+          // Store consumer
+          addConsumer(consumer, roomName);
+
+          // Update worker stats
+          const workerData = workerState.workers.get(room.workerId);
+          if (workerData) {
+            workerData.stats.consumers++;
+          }
+
+          consumer.on("transportclose", () => {
+            console.log("Transport close from consumer");
+          });
+
+          consumer.on("producerclose", () => {
+            console.log("Producer of consumer closed");
+            socket.emit("producer-closed", { remoteProducerId });
+
+            transport.close();
+            transports = transports.filter(
+              (transportData) => transportData.transport.id !== transport.id
+            );
+            consumer.close();
+            consumers = consumers.filter(
+              (consumerData) => consumerData.consumer.id !== consumer.id
+            );
+          });
+
+          // Send response
+          callback({
+            params: {
+              id: consumer.id,
+              producerId: remoteProducerId,
+              kind: consumer.kind,
+              rtpParameters: consumer.rtpParameters,
+              serverConsumerId: consumer.id,
+            },
+          });
+
+          // Resume after sending response
+          await consumer.resume();
+          await socket.emit("consumer-resume", {
+            serverConsumerId: consumer.id,
+            producerId: remoteProducerId
+          });
+
+        } catch (error) {
+          console.error("Error in consume:", error.message);
+          callback({
+            params: {
+              error: error.message,
+            },
+          });
+        }
+      }
+    );
+
+    socket.on("consumer-resume", async ({ serverConsumerId, producerId }) => {
+      try {
+        const consumerData = consumers.find(
+          (consumerData) => consumerData.consumer.id === serverConsumerId
+        );
+        const consumer = consumerData ? consumerData.consumer : null;
+
+        if (!consumer || consumer.closed) {
+          console.error(
+            `Consumer with ID ${serverConsumerId} not found or already closed.`
+          );
+          return;
+        }
+
+        await consumer.resume();
+        
+        // Notify all clients in the room to resume the stream
+        io.to(socket.roomName).emit("stream-resumed", {
+          producerId,
+          serverConsumerId,
+        });
+      } catch (error) {
+        console.error("Error resuming consumer:", error);
+      }
+    });
+
+    socket.on("new-screen-share-producer", ({ producerId, roomName }) => {
+      console.log(`New screen share producer: ${producerId} in room: ${roomName}`);
+      io.to(roomName).emit("new-screen-share", { producerId });
+    });
+
+    socket.on("consumer-pause", async ({ serverConsumerId, producerId }) => {
+      console.log("Pausing consumer:", serverConsumerId, "producer:", producerId);
+      try {
+        const { consumer } = consumers.find(
+          (consumerData) => consumerData.consumer.id === serverConsumerId
+        );
+        if (consumer) {
+          await consumer.pause();
+
+          // Also pause the producer if it exists
+          producers.forEach(async (producerData) => {
+            if (producerData.producer.id === producerId) {
+              await producerData.producer.pause();
+            }
+          });
+
+          // Notify all clients in the room to pause the stream
+          io.to(socket.roomName).emit("stream-paused", {
+            producerId,
+            serverConsumerId,
+          });
+        }
+      } catch (error) {
+        console.error("Error pausing consumer:", error);
+      }
+    });
+
+    socket.on("consumer-close", ({ serverConsumerId }) => {
+      try {
+        const consumerData = consumers.find(
+          (consumerData) => consumerData.consumer.id === serverConsumerId
+        );
+        if (consumerData?.consumer) {
+          consumerData.consumer.close();
+          consumers = consumers.filter(c => c.consumer.id !== serverConsumerId);
+        }
+      } catch (error) {
+        console.error("Error closing consumer:", error);
+      }
+    });
+
+    socket.on("producer-close", ({ producerId }) => {
+      try {
+        producers.forEach((producerData) => {
+          if (producerData.producer.id === producerId) {
+            producerData.producer.close();
+            producers = producers.filter(p => p.producer.id !== producerId);
+          }
+        });
+      } catch (error) {
+        console.error("Error closing producer:", error);
+      }
+    });
+
+    socket.on("disconnect", () => {
+      console.log("peer disconnected");
+      
+      const peer = peers.get(socket.id);
+      if (peer) {
+        const roomName = peer.roomName;
+        const room = workerState.rooms.get(roomName);
+        
+        // Clean up worker stats
+        if (room) {
+          const workerData = workerState.workers.get(room.workerId);
+          if (workerData) {
+            workerData.stats.peers--;
+            workerData.load = Math.max(0, workerData.load - 1);
+            
+            // Remove room if empty
+            room.peers.delete(socket.id);
+            if (room.peers.size === 0) {
+              workerState.rooms.delete(roomName);
+              workerData.stats.producers -= producers.filter(p => p.roomName === roomName).length;
+              workerData.stats.consumers -= consumers.filter(c => c.roomName === roomName).length;
+            }
+          }
+        }
+
+        // Get all consumers associated with this socket
+        const userConsumers = consumers.filter((c) => c.socketId === socket.id);
+        const consumerIds = userConsumers.map((c) => c.consumer.id);
+
+        // Get all producers associated with this socket
+        const userProducers = producers.filter((p) => p.socketId === socket.id);
+        
+        // Notify others about each producer that's being closed
+        userProducers.forEach((producerData) => {
+          socket.broadcast.to(roomName).emit("producer-closed", {
+            remoteProducerId: producerData.producer.id
+          });
+          producerData.producer.close();
+          producerRouterMap.delete(producerData.producer.id);
+        });
+
+        // Notify about consumer closures
+        socket.broadcast.to(roomName).emit("user-disconnected", {
+          consumerIds: consumerIds || [],
+        });
+
+        // Clean up collections
+        producers = producers.filter((p) => p.socketId !== socket.id);
+        consumers = consumers.filter((c) => c.socketId !== socket.id);
+        userConsumers.forEach((c) => c.consumer.close());
+        transports = removeItems(transports, socket.id, "transport");
+
+        // Leave room and clean up peer
+        socket.leave(roomName);
+        peers.delete(socket.id);
+
+        // Clean up producer pipe maps
+        userProducers.forEach((producerData) => {
+          producerPipeMap.delete(producerData.producer.id);
+        });
+      }
+    });
+  });
+
+  async function checkWorkerScaling(workerId, cpuUsage) {
+    const workerData = workerState.workers.get(workerId);
+    
+    if (cpuUsage > WORKER_THRESHOLDS.CPU_HIGH) {
+      if (workerState.workers.size < WORKER_THRESHOLDS.MAX_WORKERS) {
+        await createNewWorkerAndRebalance(workerId);
+      } else {
+        await rebalanceHighLoadWorker(workerId);
+      }
+    } else if (cpuUsage < WORKER_THRESHOLDS.CPU_LOW && workerState.workers.size > WORKER_THRESHOLDS.MIN_WORKERS) {
+      await considerWorkerRemoval(workerId);
+    }
+  }
+
+  async function consolidateUnderutilizedWorkers() {
+    const underutilizedWorkers = Array.from(workerState.workers.entries())
+      .filter(([_, data]) => data.stats.cpu < WORKER_THRESHOLDS.CPU_LOW)
+      .sort((a, b) => a[1].stats.cpu - b[1].stats.cpu);
+
+    if (underutilizedWorkers.length < 2) return;
+
+    const [sourceWorkerId, sourceWorker] = underutilizedWorkers[0];
+    const [targetWorkerId, targetWorker] = underutilizedWorkers[1];
+
+    const combinedCpuEstimate = sourceWorker.stats.cpu + targetWorker.stats.cpu;
+
+    if (combinedCpuEstimate < WORKER_THRESHOLDS.CPU_HIGH) {
+      const roomsToMigrate = Array.from(workerState.rooms.entries())
+        .filter(([_, room]) => room.workerId === sourceWorkerId);
+
+      for (const [roomName, _] of roomsToMigrate) {
+        await migrateRoom(roomName, targetWorkerId);
+      }
+
+      await sourceWorker.worker.close();
+      workerState.workers.delete(sourceWorkerId);
+      console.log(`Removed underutilized worker ${sourceWorkerId}`);
+    }
+  }
+
+  async function createNewWorkerAndRebalance() {
+    if (workerState.workers.size >= WORKER_THRESHOLDS.MAX_WORKERS) {
+      console.log("Cannot create new worker: maximum worker limit reached");
+      return;
+    }
+
+    const newWorker = await mediasoup.createWorker({
+      logLevel: "debug",
+      logTags: ["rtp", "srtp", "rtcp"],
+      rtcMinPort: 10000 + (workerState.workers.size * 1000),
+      rtcMaxPort: 10999 + (workerState.workers.size * 1000),
+    });
+
+    const router = await newWorker.createRouter({ mediaCodecs });
+    
+    workerState.workers.set(newWorker.pid, {
+      worker: newWorker,
+      router,
+      load: 0,
+      stats: {
+        cpu: 0,
+        memory: 0,
+        peers: 0,
+        producers: 0,
+        consumers: 0,
+        lastUpdated: Date.now()
+      }
+    });
+
+    console.log(`Created new worker with PID: ${newWorker.pid}`);
+
+    const mostLoadedWorker = Array.from(workerState.workers.entries())
+      .reduce((max, [_, data]) => !max || data.stats.cpu > max.stats.cpu ? data : max, null);
+
+    if (mostLoadedWorker && mostLoadedWorker.stats.cpu > WORKER_THRESHOLDS.CPU_HIGH) {
+      await rebalanceRooms(mostLoadedWorker.worker.pid, newWorker.pid);
+    }
+  }
+
+  async function rebalanceHighLoadWorker(highLoadWorkerId) {
+    const highLoadWorker = workerState.workers.get(highLoadWorkerId);
+    if (!highLoadWorker) return;
+
+    const availableWorkers = Array.from(workerState.workers.entries())
+      .filter(([id, data]) => id !== highLoadWorkerId && data.stats.cpu < WORKER_THRESHOLDS.CPU_HIGH)
+      .sort((a, b) => a[1].stats.cpu - b[1].stats.cpu);
+
+    if (availableWorkers.length === 0) return;
+
+    const roomsToMigrate = Array.from(workerState.rooms.entries())
+      .filter(([_, room]) => room.workerId === highLoadWorkerId);
+
+    for (const [roomName, room] of roomsToMigrate) {
+      const targetWorker = availableWorkers[0][1];
+      await migrateRoom(roomName, targetWorker.worker.pid);
+    }
+  }
+
+  async function considerWorkerRemoval(lowLoadWorkerId) {
+    const lowLoadWorker = workerState.workers.get(lowLoadWorkerId);
+    if (!lowLoadWorker) return;
+
+    const targetWorker = Array.from(workerState.workers.entries())
+      .find(([id, data]) => 
+        id !== lowLoadWorkerId && 
+        data.stats.cpu < WORKER_THRESHOLDS.CPU_HIGH - 20);
+
+    if (!targetWorker) return;
+
+    const roomsToMigrate = Array.from(workerState.rooms.entries())
+      .filter(([_, room]) => room.workerId === lowLoadWorkerId);
+
+    for (const [roomName, _] of roomsToMigrate) {
+      await migrateRoom(roomName, targetWorker[0]);
+    }
+
+    await lowLoadWorker.worker.close();
+    workerState.workers.delete(lowLoadWorkerId);
+  }
+
+  async function rebalanceRooms(sourceWorkerId, targetWorkerId) {
+    const sourceWorker = workerState.workers.get(sourceWorkerId);
+    if (!sourceWorker) return;
+
+    const roomsToMigrate = Array.from(workerState.rooms.entries())
+      .filter(([_, room]) => room.workerId === sourceWorkerId);
+
+    const halfRooms = Math.ceil(roomsToMigrate.length / 2);
+    for (let i = 0; i < halfRooms; i++) {
+      const [roomName, _] = roomsToMigrate[i];
+      await migrateRoom(roomName, targetWorkerId);
+    }
+  }
+};

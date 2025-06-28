@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\.953aede5a4161a9ec4852cfc823438a3548b5411-audit.json",
+    "files": [
+        {
+            "date": 1749365112570,
+            "name": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\mediasoup-server-error-2025-06-08.log",
+            "hash": "17148872b74fc7a95e8b7e9ed6fcfb34ca49473dfec1fdc1cec5e845b7fefea1"
+        },
+        {
+            "date": 1749656509743,
+            "name": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\mediasoup-server-error-2025-06-11.log",
+            "hash": "05abed623966f1d4e3563ea93465a34460234f199b434312bb1ce93f320b1df7"
+        }
+    ],
+    "hashType": "sha256"
+}

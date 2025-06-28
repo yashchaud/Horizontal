@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\.e90b0876f8c7bf3f5646fecc01d25dde061890f8-audit.json",
+    "files": [
+        {
+            "date": 1749365112527,
+            "name": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\piping-error-2025-06-08.log",
+            "hash": "bdda2a5b85f7e5aceaf7e30394b0f6fa8bb38570cf9360ff670179aaaec61baa"
+        },
+        {
+            "date": 1749656509720,
+            "name": "D:\\Work\\v0clone\\blogforcontent\\Biscord - Copy\\logs\\piping-error-2025-06-11.log",
+            "hash": "b9e3695df005da081b0b7bac708fa2a3dcf1ea790befc759d01f3936df058e77"
+        }
+    ],
+    "hashType": "sha256"
+}

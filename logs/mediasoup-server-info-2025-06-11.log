@@ -1,0 +1,745 @@
+2025-06-11T15:41:49.826Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T15:41:49.828Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T15:41:49.994Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T15:41:49.996Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T15:41:51.348Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T15:41:51.350Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T15:41:51.375Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T15:41:51.376Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T15:41:51.377Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T15:41:55.008Z [INFO] [mediasoup-server]: Attempting to reconnect to target server...
+2025-06-11T15:41:55.008Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T15:41:55.012Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T15:41:55.013Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T15:41:55.014Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 615a1496-ebc6-46c0-92e1-ecc0a854bafa
+2025-06-11T15:41:55.016Z [INFO] [mediasoup-server]: Received router ID 615a1496-ebc6-46c0-92e1-ecc0a854bafa from server server-1
+2025-06-11T15:41:55.017Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T15:41:55.020Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 615a1496-ebc6-46c0-92e1-ecc0a854bafa
+2025-06-11T15:41:55.020Z [INFO] [mediasoup-server]: Storing router ID be6a533f-18cd-4145-83e8-7ef296a59790 from server server-2 (from ack)
+2025-06-11T15:42:05.761Z [INFO] [mediasoup-server]: Peer connected: OdClGnlGcVihew3rAAAB
+2025-06-11T15:42:26.419Z [INFO] [mediasoup-server]: Peer disconnected: OdClGnlGcVihew3rAAAB
+2025-06-11T15:42:26.819Z [INFO] [mediasoup-server]: Peer connected: SBbvDz81gKZd9mXrAAAD
+2025-06-11T15:42:27.144Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.281Z [INFO] [mediasoup-server]: Received transport-connect for transportId f89db6d4-b40c-4ff9-9605-1ffd16a08edb
+2025-06-11T15:42:27.283Z [INFO] [mediasoup-server]: Transport f89db6d4-b40c-4ff9-9605-1ffd16a08edb connected successfully
+2025-06-11T15:42:27.325Z [INFO] [mediasoup-server]: Piping producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.328Z [INFO] [mediasoup-server]: Producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 created for peer SBbvDz81gKZd9mXrAAAD, kind: audio
+2025-06-11T15:42:27.337Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9
+2025-06-11T15:42:27.337Z [INFO] [mediasoup-server]: Piping producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.340Z [INFO] [mediasoup-server]: Successfully piped producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.342Z [INFO] [mediasoup-server]: Queueing notification for producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.390Z [INFO] [mediasoup-server]: Piping producer d775a907-fb3a-4bf4-8798-ce469333b2c6 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.390Z [INFO] [mediasoup-server]: Producer d775a907-fb3a-4bf4-8798-ce469333b2c6 created for peer SBbvDz81gKZd9mXrAAAD, kind: video
+2025-06-11T15:42:27.400Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer d775a907-fb3a-4bf4-8798-ce469333b2c6
+2025-06-11T15:42:27.400Z [INFO] [mediasoup-server]: Piping producer d775a907-fb3a-4bf4-8798-ce469333b2c6 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.402Z [INFO] [mediasoup-server]: Successfully piped producer d775a907-fb3a-4bf4-8798-ce469333b2c6 to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.408Z [INFO] [mediasoup-server]: Queueing notification for producer d775a907-fb3a-4bf4-8798-ce469333b2c6 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.411Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.411Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T15:42:27.455Z [INFO] [mediasoup-server]: Successfully piped producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.456Z [INFO] [mediasoup-server]: Queueing notification for producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.457Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:27.457Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:42:27.465Z [INFO] [mediasoup-server]: Successfully piped producer d775a907-fb3a-4bf4-8798-ce469333b2c6 to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.466Z [INFO] [mediasoup-server]: Queueing notification for producer d775a907-fb3a-4bf4-8798-ce469333b2c6 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:30.370Z [INFO] [mediasoup-server]: Peer connected: ltOZb6bPoWxXVkFTAAAF
+2025-06-11T15:42:30.590Z [INFO] [mediasoup-server]: Peer ltOZb6bPoWxXVkFTAAAF joined existing room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:30.741Z [INFO] [mediasoup-server]: Received transport-connect for transportId f6489b53-2ff3-4292-888d-992dc7ca6ca7
+2025-06-11T15:42:30.781Z [INFO] [mediasoup-server]: Transport f6489b53-2ff3-4292-888d-992dc7ca6ca7 connected successfully
+2025-06-11T15:42:30.865Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 3999063a-3e17-48be-86f7-8b651de4b992
+2025-06-11T15:42:30.883Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 6dd454e6-b295-4507-a6c2-a5a650c26cd6
+2025-06-11T15:42:30.903Z [WARN] [mediasoup-server]: Cannot fulfill keyframe request for producer d775a907-fb3a-4bf4-8798-ce469333b2c6: No valid producer or method
+2025-06-11T15:42:30.930Z [INFO] [mediasoup-server]: Piping producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:30.932Z [INFO] [mediasoup-server]: Producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f created for peer ltOZb6bPoWxXVkFTAAAF, kind: audio
+2025-06-11T15:42:30.944Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f
+2025-06-11T15:42:30.944Z [INFO] [mediasoup-server]: Piping producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:30.946Z [INFO] [mediasoup-server]: Successfully piped producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:30.948Z [INFO] [mediasoup-server]: Queueing notification for producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:30.988Z [INFO] [mediasoup-server]: Consumer transport 3999063a-3e17-48be-86f7-8b651de4b992 connected successfully
+2025-06-11T15:42:31.006Z [INFO] [mediasoup-server]: Consumer transport 6dd454e6-b295-4507-a6c2-a5a650c26cd6 connected successfully
+2025-06-11T15:42:31.029Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:31.030Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:42:31.131Z [INFO] [mediasoup-server]: Piping producer 42468449-75d6-4a2d-89f8-5fbc067355ba (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.155Z [INFO] [mediasoup-server]: Queueing notification for producer 42468449-75d6-4a2d-89f8-5fbc067355ba in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:31.133Z [INFO] [mediasoup-server]: Producer 42468449-75d6-4a2d-89f8-5fbc067355ba created for peer ltOZb6bPoWxXVkFTAAAF, kind: video
+2025-06-11T15:42:31.148Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 42468449-75d6-4a2d-89f8-5fbc067355ba
+2025-06-11T15:42:31.148Z [INFO] [mediasoup-server]: Piping producer 42468449-75d6-4a2d-89f8-5fbc067355ba (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.154Z [INFO] [mediasoup-server]: Successfully piped producer 42468449-75d6-4a2d-89f8-5fbc067355ba to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.196Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:31.196Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:42:31.223Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId b6cf484c-dfdb-4c93-a397-e8756cf903c9
+2025-06-11T15:42:31.238Z [INFO] [mediasoup-server]: Successfully piped producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.238Z [INFO] [mediasoup-server]: Queueing notification for producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:31.261Z [INFO] [mediasoup-server]: Consumer transport b6cf484c-dfdb-4c93-a397-e8756cf903c9 connected successfully
+2025-06-11T15:42:31.274Z [INFO] [mediasoup-server]: Successfully piped producer 42468449-75d6-4a2d-89f8-5fbc067355ba to remote server with router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.275Z [INFO] [mediasoup-server]: Queueing notification for producer 42468449-75d6-4a2d-89f8-5fbc067355ba in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:42:31.292Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 5ed2b30e-b656-48d9-ad9d-ae509cf0b9e6
+2025-06-11T15:42:31.300Z [WARN] [mediasoup-server]: Cannot fulfill keyframe request for producer 42468449-75d6-4a2d-89f8-5fbc067355ba: No valid producer or method
+2025-06-11T15:42:31.306Z [INFO] [mediasoup-server]: Consumer transport 5ed2b30e-b656-48d9-ad9d-ae509cf0b9e6 connected successfully
+2025-06-11T15:42:58.799Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T15:42:58.801Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T15:42:58.805Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T15:42:58.807Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T15:42:58.833Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T15:42:58.833Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T15:42:58.836Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T15:42:58.836Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T15:42:58.837Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T15:42:58.837Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T15:43:00.440Z [INFO] [mediasoup-server]: Peer connected: YfDxDE7My-Zr2ZSVAAAB
+2025-06-11T15:43:03.847Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-2
+2025-06-11T15:43:03.849Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-1
+2025-06-11T15:43:03.848Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:03.850Z [INFO] [mediasoup-server]: Sending router handshake to server-1: 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:03.855Z [INFO] [mediasoup-server]: Received router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f from server server-1
+2025-06-11T15:43:03.856Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T15:43:03.855Z [INFO] [mediasoup-server]: Received router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 from server server-2
+2025-06-11T15:43:03.856Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-2
+2025-06-11T15:43:03.859Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:03.859Z [INFO] [mediasoup-server]: Received handshake ack from server-1. They received our router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:07.221Z [INFO] [mediasoup-server]: Peer connected: BUZzfa9zWguWS23LAAAD
+2025-06-11T15:43:10.172Z [INFO] [mediasoup-server]: Peer disconnected: YfDxDE7My-Zr2ZSVAAAB
+2025-06-11T15:43:12.041Z [INFO] [mediasoup-server]: Peer disconnected: BUZzfa9zWguWS23LAAAD
+2025-06-11T15:43:12.434Z [INFO] [mediasoup-server]: Peer connected: XTy58AfpjHfmLX7xAAAF
+2025-06-11T15:43:13.568Z [INFO] [mediasoup-server]: Peer connected: 0v_WBo08jZizEuj3AAAB
+2025-06-11T15:43:21.903Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.006Z [INFO] [mediasoup-server]: Received transport-connect for transportId a6f044aa-71b1-4712-96e9-77304e637fdc
+2025-06-11T15:43:22.009Z [INFO] [mediasoup-server]: Transport a6f044aa-71b1-4712-96e9-77304e637fdc connected successfully
+2025-06-11T15:43:22.042Z [INFO] [mediasoup-server]: Piping producer 4004c05e-cb69-4054-a169-5a3cc8b4360f (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.043Z [INFO] [mediasoup-server]: Producer 4004c05e-cb69-4054-a169-5a3cc8b4360f created for peer XTy58AfpjHfmLX7xAAAF, kind: audio
+2025-06-11T15:43:22.048Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 4004c05e-cb69-4054-a169-5a3cc8b4360f
+2025-06-11T15:43:22.048Z [INFO] [mediasoup-server]: Piping producer 4004c05e-cb69-4054-a169-5a3cc8b4360f (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.052Z [INFO] [mediasoup-server]: Successfully piped producer 4004c05e-cb69-4054-a169-5a3cc8b4360f to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.054Z [INFO] [mediasoup-server]: Queueing notification for producer 4004c05e-cb69-4054-a169-5a3cc8b4360f in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.105Z [INFO] [mediasoup-server]: Piping producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.105Z [INFO] [mediasoup-server]: Producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 created for peer XTy58AfpjHfmLX7xAAAF, kind: video
+2025-06-11T15:43:22.108Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0
+2025-06-11T15:43:22.108Z [INFO] [mediasoup-server]: Piping producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.110Z [INFO] [mediasoup-server]: Successfully piped producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.111Z [INFO] [mediasoup-server]: Queueing notification for producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.121Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.122Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T15:43:22.131Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.132Z [INFO] [mediasoup-server]: Successfully piped producer 4004c05e-cb69-4054-a169-5a3cc8b4360f to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.131Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:43:22.134Z [INFO] [mediasoup-server]: Queueing notification for producer 4004c05e-cb69-4054-a169-5a3cc8b4360f in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.139Z [INFO] [mediasoup-server]: Successfully piped producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.140Z [INFO] [mediasoup-server]: Queueing notification for producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.238Z [INFO] [mediasoup-server]: Peer disconnected: XTy58AfpjHfmLX7xAAAF
+2025-06-11T15:43:22.239Z [INFO] [mediasoup-server]: Room 66d235c6c9b3cadc2af8f81c deleted (no peers remaining)
+2025-06-11T15:43:22.626Z [INFO] [mediasoup-server]: Peer connected: sxMUgvtpqmrCKVvqAAAH
+2025-06-11T15:43:22.909Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.977Z [INFO] [mediasoup-server]: Received transport-connect for transportId 0cdb773b-603d-4318-a150-471fbeebaa4d
+2025-06-11T15:43:22.979Z [INFO] [mediasoup-server]: Transport 0cdb773b-603d-4318-a150-471fbeebaa4d connected successfully
+2025-06-11T15:43:22.994Z [INFO] [mediasoup-server]: Piping producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.001Z [INFO] [mediasoup-server]: Queueing notification for producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:22.994Z [INFO] [mediasoup-server]: Producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 created for peer sxMUgvtpqmrCKVvqAAAH, kind: audio
+2025-06-11T15:43:22.999Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 9321e9a0-ad52-4486-bb10-849ee2e065a7
+2025-06-11T15:43:22.999Z [INFO] [mediasoup-server]: Piping producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.000Z [INFO] [mediasoup-server]: Successfully piped producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.012Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.012Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:43:23.031Z [INFO] [mediasoup-server]: Piping producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.031Z [INFO] [mediasoup-server]: Producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e created for peer sxMUgvtpqmrCKVvqAAAH, kind: video
+2025-06-11T15:43:23.032Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e
+2025-06-11T15:43:23.032Z [INFO] [mediasoup-server]: Piping producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.034Z [INFO] [mediasoup-server]: Successfully piped producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.035Z [INFO] [mediasoup-server]: Queueing notification for producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.036Z [INFO] [mediasoup-server]: Successfully piped producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.036Z [INFO] [mediasoup-server]: Queueing notification for producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.044Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.044Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:43:23.051Z [INFO] [mediasoup-server]: Successfully piped producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e to remote server with router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.051Z [INFO] [mediasoup-server]: Queueing notification for producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.118Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.119Z [INFO] [mediasoup-server]: Processing 8 pending notifications for room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.119Z [INFO] [mediasoup-server]: Adding remote piped producer 4004c05e-cb69-4054-a169-5a3cc8b4360f to local producers list
+2025-06-11T15:43:23.119Z [INFO] [mediasoup-server]: Adding remote piped producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 to local producers list
+2025-06-11T15:43:23.120Z [INFO] [mediasoup-server]: Adding remote piped producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 to local producers list
+2025-06-11T15:43:23.120Z [INFO] [mediasoup-server]: Adding remote piped producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e to local producers list
+2025-06-11T15:43:23.188Z [INFO] [mediasoup-server]: Received transport-connect for transportId 8948f637-bc82-4a84-a67f-2dfe2c90ed8c
+2025-06-11T15:43:23.192Z [INFO] [mediasoup-server]: Transport 8948f637-bc82-4a84-a67f-2dfe2c90ed8c connected successfully
+2025-06-11T15:43:23.249Z [INFO] [mediasoup-server]: Piping producer dd3719cb-db50-4a40-9f67-9afac0003738 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.250Z [INFO] [mediasoup-server]: Producer dd3719cb-db50-4a40-9f67-9afac0003738 created for peer 0v_WBo08jZizEuj3AAAB, kind: audio
+2025-06-11T15:43:23.251Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer dd3719cb-db50-4a40-9f67-9afac0003738
+2025-06-11T15:43:23.251Z [INFO] [mediasoup-server]: Piping producer dd3719cb-db50-4a40-9f67-9afac0003738 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.264Z [INFO] [mediasoup-server]: Successfully piped producer dd3719cb-db50-4a40-9f67-9afac0003738 to remote server with router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.265Z [INFO] [mediasoup-server]: Adding remote piped producer dd3719cb-db50-4a40-9f67-9afac0003738 to local producers list
+2025-06-11T15:43:23.269Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 5bc60b34-355a-434d-91b0-ea0d8dd48437
+2025-06-11T15:43:23.282Z [INFO] [mediasoup-server]: Consumer transport 5bc60b34-355a-434d-91b0-ea0d8dd48437 connected successfully
+2025-06-11T15:43:23.299Z [WARN] [mediasoup-server]: CONSUME_HANDLER: router.canConsume returned false for producer dd3719cb-db50-4a40-9f67-9afac0003738 by socket sxMUgvtpqmrCKVvqAAAH.
+2025-06-11T15:43:23.299Z [WARN] [mediasoup-server]:   Provided rtpCapabilities: {
+  codecs: [
+    {
+      mimeType: 'audio/opus',
+      kind: 'audio',
+      preferredPayloadType: 100,
+      clockRate: 48000,
+      channels: 2,
+      parameters: { minptime: 10, useinbandfec: 1 },
+      rtcpFeedback: [
+        { type: 'transport-cc', parameter: '' },
+        { type: 'nack', parameter: '' },
+        [length]: 2
+      ]
+    },
+    {
+      mimeType: 'video/VP8',
+      kind: 'video',
+      preferredPayloadType: 101,
+      clockRate: 90000,
+      parameters: {},
+      rtcpFeedback: [
+        { type: 'goog-remb', parameter: '' },
+        { type: 'transport-cc', parameter: '' },
+        { type: 'ccm', parameter: 'fir' },
+        { type: 'nack', parameter: '' },
+        { type: 'nack', parameter: 'pli' },
+        [length]: 5
+      ]
+    },
+    {
+      mimeType: 'video/rtx',
+      kind: 'video',
+      preferredPayloadType: 102,
+      clockRate: 90000,
+      parameters: { apt: 101 },
+      rtcpFeedback: [ [length]: 0 ]
+    },
+    [length]: 3
+  ],
+  headerExtensions: [
+    {
+      kind: 'audio',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:mid',
+      preferredId: 1,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:mid',
+      preferredId: 1,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time',
+      preferredId: 4,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time',
+      preferredId: 4,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01',
+      preferredId: 5,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'urn:ietf:params:rtp-hdrext:ssrc-audio-level',
+      preferredId: 10,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:3gpp:video-orientation',
+      preferredId: 11,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:toffset',
+      preferredId: 12,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/playout-delay',
+      preferredId: 14,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    [length]: 9
+  ]
+}
+2025-06-11T15:43:23.300Z [WARN] [mediasoup-server]:   Router's rtpCapabilities: {
+  codecs: [
+    {
+      kind: 'audio',
+      mimeType: 'audio/opus',
+      clockRate: 48000,
+      channels: 2,
+      rtcpFeedback: [
+        { type: 'nack', parameter: '' },
+        { type: 'transport-cc', parameter: '' },
+        [length]: 2
+      ],
+      parameters: {},
+      preferredPayloadType: 100
+    },
+    {
+      kind: 'video',
+      mimeType: 'video/VP8',
+      clockRate: 90000,
+      rtcpFeedback: [
+        { type: 'nack', parameter: '' },
+        { type: 'nack', parameter: 'pli' },
+        { type: 'ccm', parameter: 'fir' },
+        { type: 'goog-remb', parameter: '' },
+        { type: 'transport-cc', parameter: '' },
+        [length]: 5
+      ],
+      parameters: { 'x-google-start-bitrate': 1000 },
+      preferredPayloadType: 101
+    },
+    {
+      kind: 'video',
+      mimeType: 'video/rtx',
+      preferredPayloadType: 102,
+      clockRate: 90000,
+      parameters: { apt: 101 },
+      rtcpFeedback: [ [length]: 0 ]
+    },
+    [length]: 3
+  ],
+  headerExtensions: [
+    {
+      kind: 'audio',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:mid',
+      preferredId: 1,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:mid',
+      preferredId: 1,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id',
+      preferredId: 2,
+      preferredEncrypt: false,
+      direction: 'recvonly'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id',
+      preferredId: 3,
+      preferredEncrypt: false,
+      direction: 'recvonly'
+    },
+    {
+      kind: 'audio',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time',
+      preferredId: 4,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time',
+      preferredId: 4,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01',
+      preferredId: 5,
+      preferredEncrypt: false,
+      direction: 'recvonly'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01',
+      preferredId: 5,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://tools.ietf.org/html/draft-ietf-avtext-framemarking-07',
+      preferredId: 6,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:framemarking',
+      preferredId: 7,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'urn:ietf:params:rtp-hdrext:ssrc-audio-level',
+      preferredId: 10,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:3gpp:video-orientation',
+      preferredId: 11,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'urn:ietf:params:rtp-hdrext:toffset',
+      preferredId: 12,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-capture-time',
+      preferredId: 13,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/abs-capture-time',
+      preferredId: 13,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'audio',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/playout-delay',
+      preferredId: 14,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    {
+      kind: 'video',
+      uri: 'http://www.webrtc.org/experiments/rtp-hdrext/playout-delay',
+      preferredId: 14,
+      preferredEncrypt: false,
+      direction: 'sendrecv'
+    },
+    [length]: 17
+  ]
+}
+2025-06-11T15:43:23.316Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.318Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 5a798b1f-4018-47ba-b601-b339305d1fac
+2025-06-11T15:43:23.316Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Notifying peer undefined in room 66d235c6c9b3cadc2af8f81c about new remote producer undefined
+2025-06-11T15:43:23.318Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T15:43:23.330Z [WARN] [mediasoup-server]: Origin producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 not found for keyframe request
+2025-06-11T15:43:23.332Z [WARN] [mediasoup-server]: Origin producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 not found for keyframe request
+2025-06-11T15:43:23.350Z [WARN] [mediasoup-server]: Origin producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e does not have requestKeyFrame method
+2025-06-11T15:43:23.352Z [WARN] [mediasoup-server]: Origin producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e does not have requestKeyFrame method
+2025-06-11T15:43:23.322Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId a944c864-c2e2-42ed-8677-91f6b24f27ee
+2025-06-11T15:43:23.325Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 0922e416-c6fb-4601-843e-9e877f1d99dd
+2025-06-11T15:43:23.356Z [INFO] [mediasoup-server]: Piping producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.356Z [INFO] [mediasoup-server]: Producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb created for peer 0v_WBo08jZizEuj3AAAB, kind: video
+2025-06-11T15:43:23.358Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb
+2025-06-11T15:43:23.358Z [INFO] [mediasoup-server]: Piping producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.360Z [INFO] [mediasoup-server]: Successfully piped producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb to remote server with router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.361Z [INFO] [mediasoup-server]: Adding remote piped producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb to local producers list
+2025-06-11T15:43:23.376Z [INFO] [mediasoup-server]: Consumer transport 5a798b1f-4018-47ba-b601-b339305d1fac connected successfully
+2025-06-11T15:43:23.377Z [INFO] [mediasoup-server]: Consumer transport a944c864-c2e2-42ed-8677-91f6b24f27ee connected successfully
+2025-06-11T15:43:23.378Z [INFO] [mediasoup-server]: Consumer transport 0922e416-c6fb-4601-843e-9e877f1d99dd connected successfully
+2025-06-11T15:43:23.386Z [INFO] [mediasoup-server]: Successfully piped producer dd3719cb-db50-4a40-9f67-9afac0003738 to remote server with router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.396Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T15:43:23.396Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T15:43:23.420Z [INFO] [mediasoup-server]: Successfully piped producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb to remote server with router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.442Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId c92283f7-d621-4255-9394-ebc024f9c9a6
+2025-06-11T15:43:23.453Z [WARN] [mediasoup-server]: Origin producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb does not have requestKeyFrame method
+2025-06-11T15:43:23.455Z [WARN] [mediasoup-server]: Origin producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb does not have requestKeyFrame method
+2025-06-11T15:43:23.463Z [INFO] [mediasoup-server]: Consumer transport c92283f7-d621-4255-9394-ebc024f9c9a6 connected successfully
+2025-06-11T15:43:23.479Z [INFO] [mediasoup-server]: Received transport-recv-connect for transportId 87f31780-f77d-4f5f-b2cb-0b0692fab2a3
+2025-06-11T15:43:23.482Z [INFO] [mediasoup-server]: Consumer transport 87f31780-f77d-4f5f-b2cb-0b0692fab2a3 connected successfully
+2025-06-11T15:43:57.207Z [INFO] [mediasoup-server]: Received SIGINT signal
+2025-06-11T15:43:57.213Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8080
+2025-06-11T15:43:58.534Z [INFO] [mediasoup-server]: Received SIGINT signal
+2025-06-11T16:05:14.364Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:05:14.366Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:05:14.387Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:05:14.388Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T16:05:14.806Z [INFO] [mediasoup-server]: Peer connected: GArodBMr2TW6cD-VAAAB
+2025-06-11T16:05:14.812Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:14.886Z [INFO] [mediasoup-server]: Received transport-connect for transportId 21697a69-66af-491e-b340-1d6738ac7252
+2025-06-11T16:05:14.888Z [INFO] [mediasoup-server]: Transport 21697a69-66af-491e-b340-1d6738ac7252 connected successfully
+2025-06-11T16:05:14.921Z [ERROR] [mediasoup-server]: Cannot pipe producer 138c9bc7-184f-4080-a37e-b520f6c043a1: No remote router ID available for server-2
+2025-06-11T16:05:14.922Z [INFO] [mediasoup-server]: Producer 138c9bc7-184f-4080-a37e-b520f6c043a1 created for peer GArodBMr2TW6cD-VAAAB, kind: audio
+2025-06-11T16:05:14.925Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 138c9bc7-184f-4080-a37e-b520f6c043a1
+2025-06-11T16:05:14.964Z [ERROR] [mediasoup-server]: Cannot pipe producer 85c0b8f6-1bfa-4628-afe4-8ac53de68afc: No remote router ID available for server-2
+2025-06-11T16:05:14.964Z [INFO] [mediasoup-server]: Producer 85c0b8f6-1bfa-4628-afe4-8ac53de68afc created for peer GArodBMr2TW6cD-VAAAB, kind: video
+2025-06-11T16:05:14.967Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 85c0b8f6-1bfa-4628-afe4-8ac53de68afc
+2025-06-11T16:05:19.394Z [INFO] [mediasoup-server]: Attempting to reconnect to target server...
+2025-06-11T16:05:19.373Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:05:19.375Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:05:19.394Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:05:19.397Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:05:19.400Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:05:19.400Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:05:19.401Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 9c52a1bc-a1a9-43e1-b82c-4b425ba20047
+2025-06-11T16:05:19.402Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:05:19.403Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:05:19.405Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:63:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-11T16:05:23.237Z [INFO] [mediasoup-server]: Peer connected: FPcbj-SIDxASd61QAAAB
+2025-06-11T16:05:23.805Z [INFO] [mediasoup-server]: Peer disconnected: GArodBMr2TW6cD-VAAAB
+2025-06-11T16:05:23.805Z [INFO] [mediasoup-server]: Room 66d235c6c9b3cadc2af8f81c deleted (no peers remaining)
+2025-06-11T16:05:24.417Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-1
+2025-06-11T16:05:24.418Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-2
+2025-06-11T16:05:24.418Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 9c52a1bc-a1a9-43e1-b82c-4b425ba20047
+2025-06-11T16:05:24.418Z [INFO] [mediasoup-server]: Sending router handshake to server-1: 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:24.421Z [INFO] [mediasoup-server]: Received router ID 9c52a1bc-a1a9-43e1-b82c-4b425ba20047 from server server-1
+2025-06-11T16:05:24.422Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T16:05:24.427Z [INFO] [mediasoup-server]: Received handshake ack from server-1. They received our router ID 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:24.424Z [INFO] [mediasoup-server]: Received router ID 26491a7c-56be-4239-97ce-c64104d555e7 from server server-2
+2025-06-11T16:05:24.425Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-2
+2025-06-11T16:05:24.427Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 9c52a1bc-a1a9-43e1-b82c-4b425ba20047
+2025-06-11T16:05:24.473Z [INFO] [mediasoup-server]: Peer connected: FBeALAUMzaj0PKdOAAAD
+2025-06-11T16:05:24.915Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.024Z [INFO] [mediasoup-server]: Received transport-connect for transportId 9ca259d0-cd5a-45d1-80d7-1a840d4086c3
+2025-06-11T16:05:25.026Z [INFO] [mediasoup-server]: Transport 9ca259d0-cd5a-45d1-80d7-1a840d4086c3 connected successfully
+2025-06-11T16:05:25.072Z [INFO] [mediasoup-server]: Piping producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.074Z [INFO] [mediasoup-server]: Producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 created for peer FBeALAUMzaj0PKdOAAAD, kind: audio
+2025-06-11T16:05:25.082Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 1b6d829f-17ff-49aa-9079-6f3b8b695638
+2025-06-11T16:05:25.082Z [INFO] [mediasoup-server]: Piping producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.088Z [INFO] [mediasoup-server]: Successfully piped producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 to remote server with router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.090Z [INFO] [mediasoup-server]: Queueing notification for producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.155Z [INFO] [mediasoup-server]: Piping producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.156Z [INFO] [mediasoup-server]: Producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 created for peer FBeALAUMzaj0PKdOAAAD, kind: video
+2025-06-11T16:05:25.161Z [INFO] [mediasoup-server]: Handshake complete, attempting immediate pipe for producer 87f87ba9-0118-4177-b3b9-5ee2684a2378
+2025-06-11T16:05:25.162Z [INFO] [mediasoup-server]: Piping producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.164Z [INFO] [mediasoup-server]: Successfully piped producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 to remote server with router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.177Z [INFO] [mediasoup-server]: Queueing notification for producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.181Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.181Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T16:05:25.207Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.207Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T16:05:25.209Z [INFO] [mediasoup-server]: Successfully piped producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 to remote server with router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.214Z [INFO] [mediasoup-server]: Queueing notification for producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:25.218Z [INFO] [mediasoup-server]: Successfully piped producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 to remote server with router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.220Z [INFO] [mediasoup-server]: Queueing notification for producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:05:58.052Z [INFO] [mediasoup-server]: Received SIGINT signal
+2025-06-11T16:05:58.060Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8080
+2025-06-11T16:05:59.276Z [INFO] [mediasoup-server]: Received SIGINT signal
+2025-06-11T16:09:43.332Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:09:43.334Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:09:43.357Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:09:43.358Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T16:09:43.669Z [INFO] [mediasoup-server]: Peer connected: qQmhenSTuL58Q3Y1AAAB
+2025-06-11T16:09:44.484Z [INFO] [mediasoup-server]: Peer disconnected: qQmhenSTuL58Q3Y1AAAB
+2025-06-11T16:09:45.467Z [INFO] [mediasoup-server]: Peer connected: -0A0aR7fFX0xbW2eAAAD
+2025-06-11T16:09:45.792Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:45.950Z [INFO] [mediasoup-server]: Received transport-connect for transportId 37ea75ac-d403-44bb-8946-cd3b783ad1a4
+2025-06-11T16:09:45.955Z [INFO] [mediasoup-server]: Transport 37ea75ac-d403-44bb-8946-cd3b783ad1a4 connected successfully
+2025-06-11T16:09:46.004Z [ERROR] [mediasoup-server]: Cannot pipe producer 5b30cf90-7b8e-4265-8ae2-f724c60b353d: No remote router ID available for server-2
+2025-06-11T16:09:46.005Z [INFO] [mediasoup-server]: Producer 5b30cf90-7b8e-4265-8ae2-f724c60b353d created for peer -0A0aR7fFX0xbW2eAAAD, kind: audio
+2025-06-11T16:09:46.019Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 5b30cf90-7b8e-4265-8ae2-f724c60b353d
+2025-06-11T16:09:46.082Z [ERROR] [mediasoup-server]: Cannot pipe producer 2376ea89-b41b-42ed-a186-ea235c02f81a: No remote router ID available for server-2
+2025-06-11T16:09:46.082Z [INFO] [mediasoup-server]: Producer 2376ea89-b41b-42ed-a186-ea235c02f81a created for peer -0A0aR7fFX0xbW2eAAAD, kind: video
+2025-06-11T16:09:46.089Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 2376ea89-b41b-42ed-a186-ea235c02f81a
+2025-06-11T16:09:48.370Z [INFO] [mediasoup-server]: Attempting to reconnect to target server...
+2025-06-11T16:09:48.371Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:09:48.373Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:09:48.374Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T16:09:49.183Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:09:49.185Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:09:49.209Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:09:49.212Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:09:49.213Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:09:49.731Z [INFO] [mediasoup-server]: Peer disconnected: -0A0aR7fFX0xbW2eAAAD
+2025-06-11T16:09:49.731Z [INFO] [mediasoup-server]: Room 66d235c6c9b3cadc2af8f81c deleted (no peers remaining)
+2025-06-11T16:09:50.836Z [INFO] [mediasoup-server]: Peer connected: HhuU5S3NNK41YuciAAAF
+2025-06-11T16:09:51.011Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:51.107Z [INFO] [mediasoup-server]: Received transport-connect for transportId 24423f1f-72ce-4456-a410-0a66215e1161
+2025-06-11T16:09:51.108Z [INFO] [mediasoup-server]: Transport 24423f1f-72ce-4456-a410-0a66215e1161 connected successfully
+2025-06-11T16:09:51.143Z [ERROR] [mediasoup-server]: Cannot pipe producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5: No remote router ID available for server-2
+2025-06-11T16:09:51.143Z [INFO] [mediasoup-server]: Producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 created for peer HhuU5S3NNK41YuciAAAF, kind: audio
+2025-06-11T16:09:51.151Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5
+2025-06-11T16:09:51.191Z [ERROR] [mediasoup-server]: Cannot pipe producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20: No remote router ID available for server-2
+2025-06-11T16:09:51.191Z [INFO] [mediasoup-server]: Producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 created for peer HhuU5S3NNK41YuciAAAF, kind: video
+2025-06-11T16:09:51.201Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20
+2025-06-11T16:09:53.382Z [INFO] [mediasoup-server]: Attempting to reconnect to target server...
+2025-06-11T16:09:53.383Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:09:53.387Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:09:53.388Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:09:53.388Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 054e75e6-5555-4520-8cf6-c990894fcde3
+2025-06-11T16:09:53.392Z [INFO] [mediasoup-server]: Received router ID 054e75e6-5555-4520-8cf6-c990894fcde3 from server server-1
+2025-06-11T16:09:53.392Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T16:09:53.394Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 054e75e6-5555-4520-8cf6-c990894fcde3
+2025-06-11T16:09:53.394Z [INFO] [mediasoup-server]: Storing router ID 9f498767-9446-4bd2-a529-af5148cf8e09 from server server-2 (from ack)
+2025-06-11T16:09:53.395Z [INFO] [mediasoup-server]: Attempting to pipe previously pending producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5
+2025-06-11T16:09:53.395Z [INFO] [mediasoup-server]: Piping producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.396Z [INFO] [mediasoup-server]: Attempting to pipe previously pending producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20
+2025-06-11T16:09:53.396Z [INFO] [mediasoup-server]: Piping producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.423Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:53.424Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T16:09:53.425Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:53.426Z [WARN] [mediasoup-server]: [pipeContext.createRemoteProducer] Producer undefined already exists. Returning existing.
+2025-06-11T16:09:53.440Z [INFO] [mediasoup-server]: Successfully piped producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 to remote server with router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.442Z [INFO] [mediasoup-server]: Queueing notification for producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:53.441Z [INFO] [mediasoup-server]: Successfully piped producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 to remote server with router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.444Z [INFO] [mediasoup-server]: Queueing notification for producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:54.158Z [INFO] [mediasoup-server]: Retrying pipe for producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 after obtaining router ID
+2025-06-11T16:09:54.159Z [INFO] [mediasoup-server]: Piping producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.159Z [INFO] [mediasoup-server]: Successfully piped producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 to remote server with router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.161Z [INFO] [mediasoup-server]: Queueing notification for producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:09:54.205Z [INFO] [mediasoup-server]: Retrying pipe for producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 after obtaining router ID
+2025-06-11T16:09:54.205Z [INFO] [mediasoup-server]: Piping producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 (kind: video) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.206Z [INFO] [mediasoup-server]: Successfully piped producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 to remote server with router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.208Z [INFO] [mediasoup-server]: Queueing notification for producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:10:10.774Z [INFO] [mediasoup-server]: Peer connected: Bg6whosrbLuRToWCAAAB
+2025-06-11T16:12:36.734Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:12:36.736Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:12:36.753Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:12:36.756Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:12:36.782Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:12:36.782Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:12:36.784Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:12:36.784Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:12:36.784Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:12:36.785Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:12:41.183Z [INFO] [mediasoup-server]: Peer connected: 5bGls9Ig8BZJRKpIAAAB
+2025-06-11T16:12:41.792Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-2
+2025-06-11T16:12:41.791Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-1
+2025-06-11T16:12:41.792Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 748894f0-fe0e-4830-be02-d91e86ba8322
+2025-06-11T16:12:41.792Z [INFO] [mediasoup-server]: Sending router handshake to server-1: ba3a04a7-8dd7-4535-80e2-0e17252f8c26
+2025-06-11T16:12:41.797Z [INFO] [mediasoup-server]: Received router ID 748894f0-fe0e-4830-be02-d91e86ba8322 from server server-1
+2025-06-11T16:12:41.797Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T16:12:41.798Z [INFO] [mediasoup-server]: Received handshake ack from server-1. They received our router ID ba3a04a7-8dd7-4535-80e2-0e17252f8c26
+2025-06-11T16:12:41.797Z [INFO] [mediasoup-server]: Received router ID ba3a04a7-8dd7-4535-80e2-0e17252f8c26 from server server-2
+2025-06-11T16:12:41.797Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-2
+2025-06-11T16:12:41.799Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 748894f0-fe0e-4830-be02-d91e86ba8322
+2025-06-11T16:13:08.174Z [INFO] [mediasoup-server]: Peer connected: S24wiKxTJSeda5HPAAAB
+2025-06-11T16:14:05.639Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:14:05.644Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:05.673Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:14:05.680Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:05.757Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:05.757Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:05.760Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:05.761Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:05.761Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:05.762Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:06.255Z [INFO] [mediasoup-server]: Peer connected: _L-AgnzipzigeHGMAAAB
+2025-06-11T16:14:06.268Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:14:06.349Z [INFO] [mediasoup-server]: Received transport-connect for transportId e822f3d6-178c-42d3-8433-c04feac1ab65
+2025-06-11T16:14:06.352Z [INFO] [mediasoup-server]: Transport e822f3d6-178c-42d3-8433-c04feac1ab65 connected successfully
+2025-06-11T16:14:06.399Z [ERROR] [mediasoup-server]: Cannot pipe producer 8d565205-14c2-4f0b-9d84-3c5a3652eb46: No remote router ID available for server-2
+2025-06-11T16:14:06.400Z [INFO] [mediasoup-server]: Producer 8d565205-14c2-4f0b-9d84-3c5a3652eb46 created for peer _L-AgnzipzigeHGMAAAB, kind: audio
+2025-06-11T16:14:06.409Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 8d565205-14c2-4f0b-9d84-3c5a3652eb46
+2025-06-11T16:14:08.178Z [INFO] [mediasoup-server]: Peer connected: moPEIGUbEC86b_GnAAAB
+2025-06-11T16:14:08.689Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T16:14:09.922Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:14:09.924Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:09.923Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:14:09.925Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:09.955Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:09.955Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:09.958Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:09.958Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:09.958Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:09.959Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:14.193Z [INFO] [mediasoup-server]: Peer connected: We-9z9M8R5mQhczUAAAB
+2025-06-11T16:14:14.422Z [INFO] [mediasoup-server]: Created new room: 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:14:14.550Z [INFO] [mediasoup-server]: Received transport-connect for transportId 23202e8c-6812-4a21-ad77-c84a649cd5af
+2025-06-11T16:14:14.553Z [INFO] [mediasoup-server]: Transport 23202e8c-6812-4a21-ad77-c84a649cd5af connected successfully
+2025-06-11T16:14:14.603Z [ERROR] [mediasoup-server]: Cannot pipe producer 2b05255a-e71b-4114-b21b-ffc5239debe8: No remote router ID available for server-2
+2025-06-11T16:14:14.604Z [INFO] [mediasoup-server]: Producer 2b05255a-e71b-4114-b21b-ffc5239debe8 created for peer We-9z9M8R5mQhczUAAAB, kind: audio
+2025-06-11T16:14:14.610Z [INFO] [mediasoup-server]: Handshake not yet complete for server-2, delaying pipe attempt for producer 2b05255a-e71b-4114-b21b-ffc5239debe8
+2025-06-11T16:14:14.961Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-2
+2025-06-11T16:14:14.961Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-1
+2025-06-11T16:14:14.961Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 2efd75a3-4300-489e-beb3-7656610a1061
+2025-06-11T16:14:14.962Z [INFO] [mediasoup-server]: Sending router handshake to server-1: 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:14.964Z [INFO] [mediasoup-server]: Received router ID 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308 from server server-2
+2025-06-11T16:14:14.964Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-2
+2025-06-11T16:14:14.966Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 2efd75a3-4300-489e-beb3-7656610a1061
+2025-06-11T16:14:14.965Z [INFO] [mediasoup-server]: Received router ID 2efd75a3-4300-489e-beb3-7656610a1061 from server server-1
+2025-06-11T16:14:14.965Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T16:14:14.967Z [INFO] [mediasoup-server]: Received handshake ack from server-1. They received our router ID 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:14.967Z [INFO] [mediasoup-server]: Attempting to pipe previously pending producer 2b05255a-e71b-4114-b21b-ffc5239debe8
+2025-06-11T16:14:14.967Z [INFO] [mediasoup-server]: Piping producer 2b05255a-e71b-4114-b21b-ffc5239debe8 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:14.996Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Creating remote producer proxy for undefined from server undefined in room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:14:14.997Z [INFO] [mediasoup-server]: [pipeContext.createRemoteProducer] Successfully created and registered proxy producer undefined
+2025-06-11T16:14:15.009Z [INFO] [mediasoup-server]: Successfully piped producer 2b05255a-e71b-4114-b21b-ffc5239debe8 to remote server with router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:15.010Z [INFO] [mediasoup-server]: Queueing notification for producer 2b05255a-e71b-4114-b21b-ffc5239debe8 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:14:17.608Z [INFO] [mediasoup-server]: Retrying pipe for producer 2b05255a-e71b-4114-b21b-ffc5239debe8 after obtaining router ID
+2025-06-11T16:14:17.608Z [INFO] [mediasoup-server]: Piping producer 2b05255a-e71b-4114-b21b-ffc5239debe8 (kind: audio) in room 66d235c6c9b3cadc2af8f81c to remote server with router ID 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:17.609Z [INFO] [mediasoup-server]: Successfully piped producer 2b05255a-e71b-4114-b21b-ffc5239debe8 to remote server with router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:17.610Z [INFO] [mediasoup-server]: Queueing notification for producer 2b05255a-e71b-4114-b21b-ffc5239debe8 in non-existent room 66d235c6c9b3cadc2af8f81c
+2025-06-11T16:14:27.131Z [INFO] [mediasoup-server]: Disconnected from target server at ws://127.0.0.1:8081
+2025-06-11T16:14:28.337Z [INFO] [mediasoup-server]: WebSocket server listening on port 8081
+2025-06-11T16:14:28.339Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:28.342Z [INFO] [mediasoup-server]: WebSocket server listening on port 8080
+2025-06-11T16:14:28.345Z [INFO] [mediasoup-server]: Connecting to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:28.376Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:28.376Z [INFO] [mediasoup-server]: Received connection from another server
+2025-06-11T16:14:28.378Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8080
+2025-06-11T16:14:28.379Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:28.379Z [INFO] [mediasoup-server]: Connected to target server at ws://127.0.0.1:8081
+2025-06-11T16:14:28.379Z [WARN] [mediasoup-server]: Cannot send router handshake: local router not initialized
+2025-06-11T16:14:33.384Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-1
+2025-06-11T16:14:33.384Z [INFO] [mediasoup-server]: Sending periodic router handshake to server-2
+2025-06-11T16:14:33.385Z [INFO] [mediasoup-server]: Sending router handshake to server-1: 473e10b9-1f33-442c-a075-a0ed7560ea10
+2025-06-11T16:14:33.385Z [INFO] [mediasoup-server]: Sending router handshake to server-2: 0c8303e3-4c14-450b-ad3c-f379ac2aed26
+2025-06-11T16:14:33.390Z [INFO] [mediasoup-server]: Received router ID 0c8303e3-4c14-450b-ad3c-f379ac2aed26 from server server-1
+2025-06-11T16:14:33.391Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-1
+2025-06-11T16:14:33.394Z [INFO] [mediasoup-server]: Received handshake ack from server-1. They received our router ID 473e10b9-1f33-442c-a075-a0ed7560ea10
+2025-06-11T16:14:33.392Z [INFO] [mediasoup-server]: Received router ID 473e10b9-1f33-442c-a075-a0ed7560ea10 from server server-2
+2025-06-11T16:14:33.393Z [INFO] [mediasoup-server]: Sending router handshake acknowledgment to server-2
+2025-06-11T16:14:33.394Z [INFO] [mediasoup-server]: Received handshake ack from server-2. They received our router ID 0c8303e3-4c14-450b-ad3c-f379ac2aed26
+2025-06-11T16:14:34.207Z [INFO] [mediasoup-server]: Peer connected: E1R3uWn8L2GVWaXCAAAB
+2025-06-11T16:15:08.179Z [INFO] [mediasoup-server]: Peer connected: gCFRPLr7v83zmzIeAAAB
+2025-06-11T16:15:16.084Z [INFO] [mediasoup-server]: Peer disconnected: E1R3uWn8L2GVWaXCAAAB
+2025-06-11T16:15:16.410Z [INFO] [mediasoup-server]: Peer disconnected: gCFRPLr7v83zmzIeAAAB

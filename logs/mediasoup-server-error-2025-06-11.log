@@ -1,0 +1,51 @@
+2025-06-11T15:41:49.994Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:05:14.387Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:05:14.921Z [ERROR] [mediasoup-server]: Cannot pipe producer 138c9bc7-184f-4080-a37e-b520f6c043a1: No remote router ID available for server-2
+2025-06-11T16:05:14.964Z [ERROR] [mediasoup-server]: Cannot pipe producer 85c0b8f6-1bfa-4628-afe4-8ac53de68afc: No remote router ID available for server-2
+2025-06-11T16:05:19.405Z [ERROR] [mediasoup-server]: Error processing WebSocket message: ReferenceError: Cannot access 'processIncomingMessage' before initialization
+    at WebSocket.<anonymous> (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\simpleSocket.js:63:13)
+    at WebSocket.emit (node:events:518:28)
+    at Receiver.receiverOnMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\websocket.js:1178:20)
+    at Receiver.emit (node:events:518:28)
+    at Receiver.dataMessage (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:528:14)
+    at Receiver.getData (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:446:17)
+    at Receiver.startLoop (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:148:22)
+    at Receiver._write (D:\Work\v0clone\blogforcontent\Biscord - Copy\backend\mediasoupServer\node_modules\ws\lib\receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+2025-06-11T16:09:43.357Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:09:46.004Z [ERROR] [mediasoup-server]: Cannot pipe producer 5b30cf90-7b8e-4265-8ae2-f724c60b353d: No remote router ID available for server-2
+2025-06-11T16:09:46.082Z [ERROR] [mediasoup-server]: Cannot pipe producer 2376ea89-b41b-42ed-a186-ea235c02f81a: No remote router ID available for server-2
+2025-06-11T16:09:48.373Z [ERROR] [mediasoup-server]: WebSocket client error: Error: connect ECONNREFUSED 127.0.0.1:8081
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8081
+}
+2025-06-11T16:09:51.143Z [ERROR] [mediasoup-server]: Cannot pipe producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5: No remote router ID available for server-2
+2025-06-11T16:09:51.191Z [ERROR] [mediasoup-server]: Cannot pipe producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20: No remote router ID available for server-2
+2025-06-11T16:14:06.399Z [ERROR] [mediasoup-server]: Cannot pipe producer 8d565205-14c2-4f0b-9d84-3c5a3652eb46: No remote router ID available for server-2
+2025-06-11T16:14:14.603Z [ERROR] [mediasoup-server]: Cannot pipe producer 2b05255a-e71b-4114-b21b-ffc5239debe8: No remote router ID available for server-2

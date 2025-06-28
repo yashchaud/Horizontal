@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "target": "ES2020", // Target newer ECMAScript version
+    "module": "CommonJS", // Use CommonJS modules for Node.js/require
+    "outDir": "./dist", // Output compiled JS to a 'dist' directory (optional, good practice)
+    "rootDir": "./", // Where your TS source files are
+    "declaration": true, // Generate corresponding '.d.ts' files
+    "sourceMap": true, // Generate source maps for debugging
+
+    /* Strictness */
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of declaration files (can help with conflicts)
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+
+    /* Module Resolution Options: */
+    "moduleResolution": "node" // Use Node.js style module resolution
+    // "baseUrl": "./", // Base directory to resolve non-relative module names (if needed)
+    // "paths": {} // Module name mapping (if needed)
+  },
+  "include": [
+    "./**/*.ts" // Compile all .ts files in this directory and subdirectories
+  ],
+  "exclude": [
+    "node_modules", // Don't compile node_modules
+    "./dist", // Don't compile the output directory
+    "./pipinglogic/Router.ts" // Exclude the problematic Router file
+  ]
+}

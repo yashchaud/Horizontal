@@ -1,0 +1,9 @@
+/node_modules
+/package-lock.json
+ Thumbs.db
+Desktop.ini
+*.log
+sslcert/
+.env
+.env.local
+.env.staging

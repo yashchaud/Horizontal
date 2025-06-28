@@ -1,0 +1,424 @@
+2025-06-11T15:42:27.326Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.337Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.337Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:27.338Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:27.338Z [DEBUG] [RemotePiping]: [Source] Marking 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9:be6a533f-18cd-4145-83e8-7ef296a59790 as being piped
+2025-06-11T15:42:27.339Z [DEBUG] [RemotePiping]: [Source] Producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 already piped to router be6a533f-18cd-4145-83e8-7ef296a59790. Skipping duplicate.
+2025-06-11T15:42:27.339Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9
+2025-06-11T15:42:27.388Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport cf875435-62b9-417f-8ff5-90c0408180d1 for corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.391Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:42:27.392Z [DEBUG] [RemotePiping]: [Target] Added corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e to processing set.
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport a2c9fded-9934-4933-ab7f-c0a7ccf5d9ab for corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.389Z [DEBUG] [RemotePiping]: [Source] Stored pending request 23e4a919-9104-42fb-a8c4-83cb5772fc9e with transport cf875435-62b9-417f-8ff5-90c0408180d1 targeting router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.389Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:23e4a919-9104-42fb-a8c4-83cb5772fc9e] to server-2
+2025-06-11T15:42:27.390Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.400Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: [Source] Marking d775a907-fb3a-4bf4-8798-ce469333b2c6:be6a533f-18cd-4145-83e8-7ef296a59790 as being piped
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: [Source] Producer d775a907-fb3a-4bf4-8798-ce469333b2c6 already piped to router be6a533f-18cd-4145-83e8-7ef296a59790. Skipping duplicate.
+2025-06-11T15:42:27.401Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for d775a907-fb3a-4bf4-8798-ce469333b2c6
+2025-06-11T15:42:27.410Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 for original producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9, corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.411Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 locally via context.createRemoteProducer
+2025-06-11T15:42:27.412Z [DEBUG] [RemotePiping]: [Target] Connecting local transport a2c9fded-9934-4933-ab7f-c0a7ccf5d9ab to source transport at 127.0.0.1:10293
+2025-06-11T15:42:27.415Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 7350617d-62c0-4487-ab22-c448569ffc17 for corrId 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:27.414Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:42:27.414Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:23e4a919-9104-42fb-a8c4-83cb5772fc9e] with transport a2c9fded-9934-4933-ab7f-c0a7ccf5d9ab details
+2025-06-11T15:42:27.415Z [DEBUG] [RemotePiping]: Setting up RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.415Z [WARN] [RemotePiping]: Could not create RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.415Z [DEBUG] [RemotePiping]: [Target] Removed corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e from processing set in finally block.
+2025-06-11T15:42:27.416Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:42:27.416Z [DEBUG] [RemotePiping]: [Target] Added corrId 78ff7f28-684d-4def-a77f-0d2caf86db26 to processing set.
+2025-06-11T15:42:27.415Z [DEBUG] [RemotePiping]: [Source] Stored pending request 78ff7f28-684d-4def-a77f-0d2caf86db26 with transport 7350617d-62c0-4487-ab22-c448569ffc17 targeting router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.415Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:78ff7f28-684d-4def-a77f-0d2caf86db26] to server-2
+2025-06-11T15:42:27.417Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:42:27.417Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.418Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:23e4a919-9104-42fb-a8c4-83cb5772fc9e]
+2025-06-11T15:42:27.418Z [DEBUG] [RemotePiping]: [Source] Connecting local transport cf875435-62b9-417f-8ff5-90c0408180d1 to remote 127.0.0.1:10855 for corrId 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.420Z [DEBUG] [RemotePiping]: [Source] Local transport cf875435-62b9-417f-8ff5-90c0408180d1 connected successfully.
+2025-06-11T15:42:27.454Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport ca2ccf91-3737-46d5-ba27-779e4ebb3816 for corrId 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:27.455Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 948d487a-5848-45cf-87e1-ca450ada7216 consuming original producer 43f0d347-5e7f-4a17-9ae0-ddeb49f3f2b9 on transport cf875435-62b9-417f-8ff5-90c0408180d1
+2025-06-11T15:42:27.455Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 23e4a919-9104-42fb-a8c4-83cb5772fc9e
+2025-06-11T15:42:27.457Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer d775a907-fb3a-4bf4-8798-ce469333b2c6 for original producer d775a907-fb3a-4bf4-8798-ce469333b2c6, corrId 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:27.457Z [DEBUG] [RemotePiping]: [Target] Registered remote producer d775a907-fb3a-4bf4-8798-ce469333b2c6 locally via context.createRemoteProducer
+2025-06-11T15:42:27.458Z [DEBUG] [RemotePiping]: [Target] Connecting local transport ca2ccf91-3737-46d5-ba27-779e4ebb3816 to source transport at 127.0.0.1:10871
+2025-06-11T15:42:27.460Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:42:27.458Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:42:27.458Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:78ff7f28-684d-4def-a77f-0d2caf86db26] with transport ca2ccf91-3737-46d5-ba27-779e4ebb3816 details
+2025-06-11T15:42:27.459Z [DEBUG] [RemotePiping]: Setting up RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.459Z [WARN] [RemotePiping]: Could not create RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:27.459Z [DEBUG] [RemotePiping]: [Target] Removed corrId 78ff7f28-684d-4def-a77f-0d2caf86db26 from processing set in finally block.
+2025-06-11T15:42:27.460Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:27.460Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:78ff7f28-684d-4def-a77f-0d2caf86db26]
+2025-06-11T15:42:27.460Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 7350617d-62c0-4487-ab22-c448569ffc17 to remote 127.0.0.1:10170 for corrId 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:27.461Z [DEBUG] [RemotePiping]: [Source] Local transport 7350617d-62c0-4487-ab22-c448569ffc17 connected successfully.
+2025-06-11T15:42:27.465Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 8737adb8-5e5d-4158-9d5d-9326c7207b61 consuming original producer d775a907-fb3a-4bf4-8798-ce469333b2c6 on transport 7350617d-62c0-4487-ab22-c448569ffc17
+2025-06-11T15:42:27.465Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 78ff7f28-684d-4def-a77f-0d2caf86db26
+2025-06-11T15:42:30.930Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:30.944Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:30.944Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:30.945Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:30.945Z [DEBUG] [RemotePiping]: [Source] Marking a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f:be6a533f-18cd-4145-83e8-7ef296a59790 as being piped
+2025-06-11T15:42:30.945Z [DEBUG] [RemotePiping]: [Source] Producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f already piped to router be6a533f-18cd-4145-83e8-7ef296a59790. Skipping duplicate.
+2025-06-11T15:42:30.945Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f
+2025-06-11T15:42:31.021Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:42:31.020Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 59f3bb3c-aee3-46d2-96f2-b5fe65320ac4 for corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.020Z [DEBUG] [RemotePiping]: [Source] Stored pending request 66455811-8c9a-411e-99ae-51afdd3ec6e2 with transport 59f3bb3c-aee3-46d2-96f2-b5fe65320ac4 targeting router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.021Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:66455811-8c9a-411e-99ae-51afdd3ec6e2] to server-2
+2025-06-11T15:42:31.022Z [DEBUG] [RemotePiping]: [Target] Added corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2 to processing set.
+2025-06-11T15:42:31.024Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport fa122466-ceae-4672-a355-48a9e0bbb17f for corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.029Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f for original producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f, corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.030Z [DEBUG] [RemotePiping]: [Target] Registered remote producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f locally via context.createRemoteProducer
+2025-06-11T15:42:31.030Z [DEBUG] [RemotePiping]: [Target] Connecting local transport fa122466-ceae-4672-a355-48a9e0bbb17f to source transport at 127.0.0.1:10319
+2025-06-11T15:42:31.031Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:42:31.031Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:66455811-8c9a-411e-99ae-51afdd3ec6e2] with transport fa122466-ceae-4672-a355-48a9e0bbb17f details
+2025-06-11T15:42:31.032Z [DEBUG] [RemotePiping]: Setting up RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.032Z [WARN] [RemotePiping]: Could not create RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.032Z [DEBUG] [RemotePiping]: [Target] Removed corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2 from processing set in finally block.
+2025-06-11T15:42:31.118Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:42:31.118Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.118Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:66455811-8c9a-411e-99ae-51afdd3ec6e2]
+2025-06-11T15:42:31.118Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 59f3bb3c-aee3-46d2-96f2-b5fe65320ac4 to remote 127.0.0.1:10821 for corrId 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.131Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.148Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.152Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:31.153Z [DEBUG] [RemotePiping]: Target router be6a533f-18cd-4145-83e8-7ef296a59790 is remote. Using remote piping.
+2025-06-11T15:42:31.153Z [DEBUG] [RemotePiping]: [Source] Marking 42468449-75d6-4a2d-89f8-5fbc067355ba:be6a533f-18cd-4145-83e8-7ef296a59790 as being piped
+2025-06-11T15:42:31.153Z [DEBUG] [RemotePiping]: [Source] Producer 42468449-75d6-4a2d-89f8-5fbc067355ba already piped to router be6a533f-18cd-4145-83e8-7ef296a59790. Skipping duplicate.
+2025-06-11T15:42:31.153Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 42468449-75d6-4a2d-89f8-5fbc067355ba
+2025-06-11T15:42:31.180Z [DEBUG] [RemotePiping]: [Source] Local transport 59f3bb3c-aee3-46d2-96f2-b5fe65320ac4 connected successfully.
+2025-06-11T15:42:31.180Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 5cf88119-12a7-49a9-a61a-4393f18c5953 for corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:42:31.180Z [DEBUG] [RemotePiping]: [Source] Stored pending request bd64e3f5-55f2-4cad-a4de-d78cae90d5d0 with transport 5cf88119-12a7-49a9-a61a-4393f18c5953 targeting router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.180Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:bd64e3f5-55f2-4cad-a4de-d78cae90d5d0] to server-2
+2025-06-11T15:42:31.184Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:42:31.184Z [DEBUG] [RemotePiping]: [Target] Added corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0 to processing set.
+2025-06-11T15:42:31.193Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport b540dc50-7436-413b-9096-aef31e77041a for corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:42:31.196Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 42468449-75d6-4a2d-89f8-5fbc067355ba for original producer 42468449-75d6-4a2d-89f8-5fbc067355ba, corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:42:31.196Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 42468449-75d6-4a2d-89f8-5fbc067355ba locally via context.createRemoteProducer
+2025-06-11T15:42:31.196Z [DEBUG] [RemotePiping]: [Target] Connecting local transport b540dc50-7436-413b-9096-aef31e77041a to source transport at 127.0.0.1:10684
+2025-06-11T15:42:31.197Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:42:31.197Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:bd64e3f5-55f2-4cad-a4de-d78cae90d5d0] with transport b540dc50-7436-413b-9096-aef31e77041a details
+2025-06-11T15:42:31.198Z [DEBUG] [RemotePiping]: Setting up RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.198Z [WARN] [RemotePiping]: Could not create RTP observer for router be6a533f-18cd-4145-83e8-7ef296a59790
+2025-06-11T15:42:31.198Z [DEBUG] [RemotePiping]: [Target] Removed corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0 from processing set in finally block.
+2025-06-11T15:42:31.206Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:42:31.206Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:42:31.206Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:bd64e3f5-55f2-4cad-a4de-d78cae90d5d0]
+2025-06-11T15:42:31.206Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 5cf88119-12a7-49a9-a61a-4393f18c5953 to remote 127.0.0.1:10390 for corrId bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:42:31.237Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer ae0d617a-5c0a-4512-b491-97b53e5802ca consuming original producer a410957e-4ea9-4b9d-a86d-cae7bdaf7a0f on transport 59f3bb3c-aee3-46d2-96f2-b5fe65320ac4
+2025-06-11T15:42:31.237Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 66455811-8c9a-411e-99ae-51afdd3ec6e2
+2025-06-11T15:42:31.237Z [DEBUG] [RemotePiping]: [Source] Local transport 5cf88119-12a7-49a9-a61a-4393f18c5953 connected successfully.
+2025-06-11T15:42:31.270Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 8360cdab-9ddd-452c-90e3-28cad411a735 consuming original producer 42468449-75d6-4a2d-89f8-5fbc067355ba on transport 5cf88119-12a7-49a9-a61a-4393f18c5953
+2025-06-11T15:42:31.270Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request bd64e3f5-55f2-4cad-a4de-d78cae90d5d0
+2025-06-11T15:43:22.043Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.048Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.049Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.049Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.050Z [DEBUG] [RemotePiping]: [Source] Marking 4004c05e-cb69-4054-a169-5a3cc8b4360f:2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 as being piped
+2025-06-11T15:43:22.050Z [DEBUG] [RemotePiping]: [Source] Producer 4004c05e-cb69-4054-a169-5a3cc8b4360f already piped to router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1. Skipping duplicate.
+2025-06-11T15:43:22.051Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 4004c05e-cb69-4054-a169-5a3cc8b4360f
+2025-06-11T15:43:22.104Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport f949ee47-3463-4dd5-981f-2276d1cbebf7 for corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.106Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:22.107Z [DEBUG] [RemotePiping]: [Target] Added corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8 to processing set.
+2025-06-11T15:43:22.104Z [DEBUG] [RemotePiping]: [Source] Stored pending request 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8 with transport f949ee47-3463-4dd5-981f-2276d1cbebf7 targeting router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.104Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:3ec6cb52-279b-4dcc-aa4e-21e50c557ae8] to server-2
+2025-06-11T15:43:22.105Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: [Source] Marking ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0:2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 as being piped
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: [Source] Producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 already piped to router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1. Skipping duplicate.
+2025-06-11T15:43:22.109Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0
+2025-06-11T15:43:22.114Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport f793f309-b299-41e2-80b2-77f00788beca for corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.121Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 4004c05e-cb69-4054-a169-5a3cc8b4360f for original producer 4004c05e-cb69-4054-a169-5a3cc8b4360f, corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.122Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 4004c05e-cb69-4054-a169-5a3cc8b4360f locally via context.createRemoteProducer
+2025-06-11T15:43:22.122Z [DEBUG] [RemotePiping]: [Target] Connecting local transport f793f309-b299-41e2-80b2-77f00788beca to source transport at 127.0.0.1:10613
+2025-06-11T15:43:22.124Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport fdf34756-2512-4a82-b166-5320e0cef33c for corrId eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.124Z [DEBUG] [RemotePiping]: [Source] Stored pending request eef39f33-96ce-418c-856f-847271599034 with transport fdf34756-2512-4a82-b166-5320e0cef33c targeting router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.124Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:eef39f33-96ce-418c-856f-847271599034] to server-2
+2025-06-11T15:43:22.124Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:22.124Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:3ec6cb52-279b-4dcc-aa4e-21e50c557ae8] with transport f793f309-b299-41e2-80b2-77f00788beca details
+2025-06-11T15:43:22.125Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.125Z [WARN] [RemotePiping]: Could not create RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.125Z [DEBUG] [RemotePiping]: [Target] Removed corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8 from processing set in finally block.
+2025-06-11T15:43:22.126Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:22.126Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.127Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:3ec6cb52-279b-4dcc-aa4e-21e50c557ae8]
+2025-06-11T15:43:22.127Z [DEBUG] [RemotePiping]: [Source] Connecting local transport f949ee47-3463-4dd5-981f-2276d1cbebf7 to remote 127.0.0.1:10335 for corrId 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.126Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:22.126Z [DEBUG] [RemotePiping]: [Target] Added corrId eef39f33-96ce-418c-856f-847271599034 to processing set.
+2025-06-11T15:43:22.128Z [DEBUG] [RemotePiping]: [Source] Local transport f949ee47-3463-4dd5-981f-2276d1cbebf7 connected successfully.
+2025-06-11T15:43:22.129Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 868e1e87-a35d-45b8-a35a-892f9dce919b for corrId eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.132Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer f98d2982-0604-44ae-af54-d85df7459cae consuming original producer 4004c05e-cb69-4054-a169-5a3cc8b4360f on transport f949ee47-3463-4dd5-981f-2276d1cbebf7
+2025-06-11T15:43:22.131Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 for original producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0, corrId eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.132Z [DEBUG] [RemotePiping]: [Target] Registered remote producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 locally via context.createRemoteProducer
+2025-06-11T15:43:22.132Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 868e1e87-a35d-45b8-a35a-892f9dce919b to source transport at 127.0.0.1:10807
+2025-06-11T15:43:22.132Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8
+2025-06-11T15:43:22.133Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:22.134Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.134Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:eef39f33-96ce-418c-856f-847271599034]
+2025-06-11T15:43:22.134Z [DEBUG] [RemotePiping]: [Source] Connecting local transport fdf34756-2512-4a82-b166-5320e0cef33c to remote 127.0.0.1:10194 for corrId eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.133Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:22.133Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:eef39f33-96ce-418c-856f-847271599034] with transport 868e1e87-a35d-45b8-a35a-892f9dce919b details
+2025-06-11T15:43:22.133Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.133Z [WARN] [RemotePiping]: Could not create RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.133Z [DEBUG] [RemotePiping]: [Target] Removed corrId eef39f33-96ce-418c-856f-847271599034 from processing set in finally block.
+2025-06-11T15:43:22.135Z [DEBUG] [RemotePiping]: [Source] Local transport fdf34756-2512-4a82-b166-5320e0cef33c connected successfully.
+2025-06-11T15:43:22.138Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 7456a75c-8ec3-4852-afce-2524c63362cc consuming original producer ed2ecfc5-c01d-4125-8223-a3dfbd0b15d0 on transport fdf34756-2512-4a82-b166-5320e0cef33c
+2025-06-11T15:43:22.138Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request eef39f33-96ce-418c-856f-847271599034
+2025-06-11T15:43:22.242Z [WARN] [RemotePiping]: [Source] PipeConsumer f98d2982-0604-44ae-af54-d85df7459cae closed.
+2025-06-11T15:43:22.242Z [WARN] [RemotePiping]: [Source] PipeTransport f949ee47-3463-4dd5-981f-2276d1cbebf7 (corrId: 3ec6cb52-279b-4dcc-aa4e-21e50c557ae8) closed.
+2025-06-11T15:43:22.243Z [WARN] [RemotePiping]: [Source] PipeConsumer 7456a75c-8ec3-4852-afce-2524c63362cc closed.
+2025-06-11T15:43:22.243Z [WARN] [RemotePiping]: [Source] PipeTransport fdf34756-2512-4a82-b166-5320e0cef33c (corrId: eef39f33-96ce-418c-856f-847271599034) closed.
+2025-06-11T15:43:22.994Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: [Source] Marking 9321e9a0-ad52-4486-bb10-849ee2e065a7:2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 as being piped
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: [Source] Producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 already piped to router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1. Skipping duplicate.
+2025-06-11T15:43:22.999Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 9321e9a0-ad52-4486-bb10-849ee2e065a7
+2025-06-11T15:43:23.005Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 9077130b-cfc3-45c6-886a-0b088455d749 for corrId 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.005Z [DEBUG] [RemotePiping]: [Source] Stored pending request 05074531-1bf5-4f41-94a6-553a4a44080c with transport 9077130b-cfc3-45c6-886a-0b088455d749 targeting router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.006Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:05074531-1bf5-4f41-94a6-553a4a44080c] to server-2
+2025-06-11T15:43:23.006Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:23.006Z [DEBUG] [RemotePiping]: [Target] Added corrId 05074531-1bf5-4f41-94a6-553a4a44080c to processing set.
+2025-06-11T15:43:23.009Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 6f434b54-bed3-4877-af15-a8e2439cdf50 for corrId 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.011Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 9321e9a0-ad52-4486-bb10-849ee2e065a7 for original producer 9321e9a0-ad52-4486-bb10-849ee2e065a7, corrId 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.012Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 locally via context.createRemoteProducer
+2025-06-11T15:43:23.012Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 6f434b54-bed3-4877-af15-a8e2439cdf50 to source transport at 127.0.0.1:10718
+2025-06-11T15:43:23.014Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:23.013Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:23.013Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:05074531-1bf5-4f41-94a6-553a4a44080c] with transport 6f434b54-bed3-4877-af15-a8e2439cdf50 details
+2025-06-11T15:43:23.013Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.013Z [WARN] [RemotePiping]: Could not create RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.013Z [DEBUG] [RemotePiping]: [Target] Removed corrId 05074531-1bf5-4f41-94a6-553a4a44080c from processing set in finally block.
+2025-06-11T15:43:23.014Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.014Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:05074531-1bf5-4f41-94a6-553a4a44080c]
+2025-06-11T15:43:23.014Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 9077130b-cfc3-45c6-886a-0b088455d749 to remote 127.0.0.1:10500 for corrId 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.022Z [DEBUG] [RemotePiping]: [Source] Local transport 9077130b-cfc3-45c6-886a-0b088455d749 connected successfully.
+2025-06-11T15:43:23.031Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.032Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.033Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:23.033Z [DEBUG] [RemotePiping]: Target router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 is remote. Using remote piping.
+2025-06-11T15:43:23.033Z [DEBUG] [RemotePiping]: [Source] Marking f4d07c1f-e49a-4c3a-9476-118e92b84e5e:2bd6ffd7-a092-4c37-8611-23a5ba92d9f1 as being piped
+2025-06-11T15:43:23.033Z [DEBUG] [RemotePiping]: [Source] Producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e already piped to router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1. Skipping duplicate.
+2025-06-11T15:43:23.034Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for f4d07c1f-e49a-4c3a-9476-118e92b84e5e
+2025-06-11T15:43:23.036Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer e3feb57a-b3fd-44e7-9a26-b95a96067b3a consuming original producer 9321e9a0-ad52-4486-bb10-849ee2e065a7 on transport 9077130b-cfc3-45c6-886a-0b088455d749
+2025-06-11T15:43:23.036Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 05074531-1bf5-4f41-94a6-553a4a44080c
+2025-06-11T15:43:23.037Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport a02e0f76-7c50-4bda-a8be-24c87e52be7a for corrId 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.037Z [DEBUG] [RemotePiping]: [Source] Stored pending request 201eceb4-2859-48b9-908a-a910784c6b31 with transport a02e0f76-7c50-4bda-a8be-24c87e52be7a targeting router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.037Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:201eceb4-2859-48b9-908a-a910784c6b31] to server-2
+2025-06-11T15:43:23.039Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:23.039Z [DEBUG] [RemotePiping]: [Target] Added corrId 201eceb4-2859-48b9-908a-a910784c6b31 to processing set.
+2025-06-11T15:43:23.041Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport badb734b-3ea0-4659-8d32-7553fa0654b6 for corrId 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.044Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer f4d07c1f-e49a-4c3a-9476-118e92b84e5e for original producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e, corrId 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.045Z [DEBUG] [RemotePiping]: [Target] Registered remote producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e locally via context.createRemoteProducer
+2025-06-11T15:43:23.045Z [DEBUG] [RemotePiping]: [Target] Connecting local transport badb734b-3ea0-4659-8d32-7553fa0654b6 to source transport at 127.0.0.1:10932
+2025-06-11T15:43:23.046Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:23.046Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:201eceb4-2859-48b9-908a-a910784c6b31] with transport badb734b-3ea0-4659-8d32-7553fa0654b6 details
+2025-06-11T15:43:23.047Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.047Z [WARN] [RemotePiping]: Could not create RTP observer for router 2bd6ffd7-a092-4c37-8611-23a5ba92d9f1
+2025-06-11T15:43:23.047Z [DEBUG] [RemotePiping]: [Target] Removed corrId 201eceb4-2859-48b9-908a-a910784c6b31 from processing set in finally block.
+2025-06-11T15:43:23.048Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:23.048Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.048Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:201eceb4-2859-48b9-908a-a910784c6b31]
+2025-06-11T15:43:23.048Z [DEBUG] [RemotePiping]: [Source] Connecting local transport a02e0f76-7c50-4bda-a8be-24c87e52be7a to remote 127.0.0.1:10218 for corrId 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.049Z [DEBUG] [RemotePiping]: [Source] Local transport a02e0f76-7c50-4bda-a8be-24c87e52be7a connected successfully.
+2025-06-11T15:43:23.050Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 32e5c7cf-942d-4cc5-a54a-90f6d0e8798b consuming original producer f4d07c1f-e49a-4c3a-9476-118e92b84e5e on transport a02e0f76-7c50-4bda-a8be-24c87e52be7a
+2025-06-11T15:43:23.051Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 201eceb4-2859-48b9-908a-a910784c6b31
+2025-06-11T15:43:23.250Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.251Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.262Z [DEBUG] [RemotePiping]: Target router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f is remote. Using remote piping.
+2025-06-11T15:43:23.262Z [DEBUG] [RemotePiping]: Target router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f is remote. Using remote piping.
+2025-06-11T15:43:23.263Z [DEBUG] [RemotePiping]: [Source] Marking dd3719cb-db50-4a40-9f67-9afac0003738:29a9dd14-0a3b-40a7-9f98-880e7d2ce94f as being piped
+2025-06-11T15:43:23.263Z [DEBUG] [RemotePiping]: [Source] Producer dd3719cb-db50-4a40-9f67-9afac0003738 already piped to router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f. Skipping duplicate.
+2025-06-11T15:43:23.263Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for dd3719cb-db50-4a40-9f67-9afac0003738
+2025-06-11T15:43:23.280Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport cb4c359f-75ad-4533-8d68-a77fe02b4f7f for corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.280Z [DEBUG] [RemotePiping]: [Source] Stored pending request de2ad87c-25ed-4ea3-b43d-4d99f7428d3d with transport cb4c359f-75ad-4533-8d68-a77fe02b4f7f targeting router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.280Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:de2ad87c-25ed-4ea3-b43d-4d99f7428d3d] to server-1
+2025-06-11T15:43:23.282Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:23.283Z [DEBUG] [RemotePiping]: [Target] Added corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d to processing set.
+2025-06-11T15:43:23.313Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 4b6e120d-fc93-4437-97dd-31b27de03212 for corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.315Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer dd3719cb-db50-4a40-9f67-9afac0003738 for original producer dd3719cb-db50-4a40-9f67-9afac0003738, corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.318Z [DEBUG] [RemotePiping]: [Target] Registered remote producer dd3719cb-db50-4a40-9f67-9afac0003738 locally via context.createRemoteProducer
+2025-06-11T15:43:23.318Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 4b6e120d-fc93-4437-97dd-31b27de03212 to source transport at 127.0.0.1:10089
+2025-06-11T15:43:23.320Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:23.320Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:de2ad87c-25ed-4ea3-b43d-4d99f7428d3d] with transport 4b6e120d-fc93-4437-97dd-31b27de03212 details
+2025-06-11T15:43:23.320Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.320Z [WARN] [RemotePiping]: Could not create RTP observer for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.321Z [DEBUG] [RemotePiping]: [Target] Removed corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d from processing set in finally block.
+2025-06-11T15:43:23.356Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.358Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.358Z [DEBUG] [RemotePiping]: Target router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f is remote. Using remote piping.
+2025-06-11T15:43:23.358Z [DEBUG] [RemotePiping]: Target router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f is remote. Using remote piping.
+2025-06-11T15:43:23.359Z [DEBUG] [RemotePiping]: [Source] Marking 3ae006fc-0fd7-400a-a40a-bda93b74b5bb:29a9dd14-0a3b-40a7-9f98-880e7d2ce94f as being piped
+2025-06-11T15:43:23.359Z [DEBUG] [RemotePiping]: [Source] Producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb already piped to router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f. Skipping duplicate.
+2025-06-11T15:43:23.359Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 3ae006fc-0fd7-400a-a40a-bda93b74b5bb
+2025-06-11T15:43:23.361Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:23.361Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.362Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:de2ad87c-25ed-4ea3-b43d-4d99f7428d3d]
+2025-06-11T15:43:23.362Z [DEBUG] [RemotePiping]: [Source] Connecting local transport cb4c359f-75ad-4533-8d68-a77fe02b4f7f to remote 127.0.0.1:10528 for corrId de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.383Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 34cd3df7-fa43-4eae-8d14-54bae9512df9 for corrId 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T15:43:23.383Z [DEBUG] [RemotePiping]: [Source] Stored pending request 05ed1804-603f-4b0a-9970-f4c727c937fb with transport 34cd3df7-fa43-4eae-8d14-54bae9512df9 targeting router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.383Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:05ed1804-603f-4b0a-9970-f4c727c937fb] to server-1
+2025-06-11T15:43:23.383Z [DEBUG] [RemotePiping]: [Source] Local transport cb4c359f-75ad-4533-8d68-a77fe02b4f7f connected successfully.
+2025-06-11T15:43:23.387Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T15:43:23.386Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 443efac8-ae50-4727-b2b0-b6ee7eaf0b64 consuming original producer dd3719cb-db50-4a40-9f67-9afac0003738 on transport cb4c359f-75ad-4533-8d68-a77fe02b4f7f
+2025-06-11T15:43:23.386Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request de2ad87c-25ed-4ea3-b43d-4d99f7428d3d
+2025-06-11T15:43:23.387Z [DEBUG] [RemotePiping]: [Target] Added corrId 05ed1804-603f-4b0a-9970-f4c727c937fb to processing set.
+2025-06-11T15:43:23.390Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport f5c3def2-bd28-4d86-b1a5-db9494376a8d for corrId 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T15:43:23.395Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb for original producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb, corrId 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T15:43:23.396Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb locally via context.createRemoteProducer
+2025-06-11T15:43:23.397Z [DEBUG] [RemotePiping]: [Target] Connecting local transport f5c3def2-bd28-4d86-b1a5-db9494376a8d to source transport at 127.0.0.1:10267
+2025-06-11T15:43:23.416Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T15:43:23.416Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T15:43:23.416Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:05ed1804-603f-4b0a-9970-f4c727c937fb]
+2025-06-11T15:43:23.416Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 34cd3df7-fa43-4eae-8d14-54bae9512df9 to remote 127.0.0.1:10708 for corrId 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T15:43:23.417Z [DEBUG] [RemotePiping]: [Source] Local transport 34cd3df7-fa43-4eae-8d14-54bae9512df9 connected successfully.
+2025-06-11T15:43:23.419Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 0f0df8ec-3c98-4ac2-806a-7b6c1209c4c1 consuming original producer 3ae006fc-0fd7-400a-a40a-bda93b74b5bb on transport 34cd3df7-fa43-4eae-8d14-54bae9512df9
+2025-06-11T15:43:23.415Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T15:43:23.415Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:05ed1804-603f-4b0a-9970-f4c727c937fb] with transport f5c3def2-bd28-4d86-b1a5-db9494376a8d details
+2025-06-11T15:43:23.420Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.420Z [WARN] [RemotePiping]: Could not create RTP observer for router 29a9dd14-0a3b-40a7-9f98-880e7d2ce94f
+2025-06-11T15:43:23.420Z [DEBUG] [RemotePiping]: [Target] Removed corrId 05ed1804-603f-4b0a-9970-f4c727c937fb from processing set in finally block.
+2025-06-11T15:43:23.419Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 05ed1804-603f-4b0a-9970-f4c727c937fb
+2025-06-11T16:05:25.073Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.082Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.083Z [DEBUG] [RemotePiping]: Target router 26491a7c-56be-4239-97ce-c64104d555e7 is remote. Using remote piping.
+2025-06-11T16:05:25.083Z [DEBUG] [RemotePiping]: Target router 26491a7c-56be-4239-97ce-c64104d555e7 is remote. Using remote piping.
+2025-06-11T16:05:25.085Z [DEBUG] [RemotePiping]: [Source] Marking 1b6d829f-17ff-49aa-9079-6f3b8b695638:26491a7c-56be-4239-97ce-c64104d555e7 as being piped
+2025-06-11T16:05:25.085Z [DEBUG] [RemotePiping]: [Source] Producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 already piped to router 26491a7c-56be-4239-97ce-c64104d555e7. Skipping duplicate.
+2025-06-11T16:05:25.086Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 1b6d829f-17ff-49aa-9079-6f3b8b695638
+2025-06-11T16:05:25.152Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 3104ded1-f667-44c8-a637-562e4c59144b for corrId e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.158Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T16:05:25.159Z [DEBUG] [RemotePiping]: [Target] Added corrId e3b12e4d-49fc-422e-86f5-998d5302d07c to processing set.
+2025-06-11T16:05:25.153Z [DEBUG] [RemotePiping]: [Source] Stored pending request e3b12e4d-49fc-422e-86f5-998d5302d07c with transport 3104ded1-f667-44c8-a637-562e4c59144b targeting router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.154Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:e3b12e4d-49fc-422e-86f5-998d5302d07c] to server-2
+2025-06-11T16:05:25.156Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.162Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.162Z [DEBUG] [RemotePiping]: Target router 26491a7c-56be-4239-97ce-c64104d555e7 is remote. Using remote piping.
+2025-06-11T16:05:25.162Z [DEBUG] [RemotePiping]: Target router 26491a7c-56be-4239-97ce-c64104d555e7 is remote. Using remote piping.
+2025-06-11T16:05:25.163Z [DEBUG] [RemotePiping]: [Source] Marking 87f87ba9-0118-4177-b3b9-5ee2684a2378:26491a7c-56be-4239-97ce-c64104d555e7 as being piped
+2025-06-11T16:05:25.163Z [DEBUG] [RemotePiping]: [Source] Producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 already piped to router 26491a7c-56be-4239-97ce-c64104d555e7. Skipping duplicate.
+2025-06-11T16:05:25.163Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 87f87ba9-0118-4177-b3b9-5ee2684a2378
+2025-06-11T16:05:25.169Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 2f5ba868-e179-47e2-8e85-fd33ae9801ed for corrId e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.180Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 1b6d829f-17ff-49aa-9079-6f3b8b695638 for original producer 1b6d829f-17ff-49aa-9079-6f3b8b695638, corrId e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.181Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 locally via context.createRemoteProducer
+2025-06-11T16:05:25.182Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 2f5ba868-e179-47e2-8e85-fd33ae9801ed to source transport at 127.0.0.1:10204
+2025-06-11T16:05:25.183Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T16:05:25.183Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:e3b12e4d-49fc-422e-86f5-998d5302d07c] with transport 2f5ba868-e179-47e2-8e85-fd33ae9801ed details
+2025-06-11T16:05:25.186Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.186Z [WARN] [RemotePiping]: Could not create RTP observer for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.187Z [DEBUG] [RemotePiping]: [Target] Removed corrId e3b12e4d-49fc-422e-86f5-998d5302d07c from processing set in finally block.
+2025-06-11T16:05:25.196Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport 16734e8a-d488-41a5-854a-c99ca3f5bff6 for corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:05:25.198Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T16:05:25.198Z [DEBUG] [RemotePiping]: [Target] Added corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7 to processing set.
+2025-06-11T16:05:25.196Z [DEBUG] [RemotePiping]: [Source] Stored pending request f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7 with transport 16734e8a-d488-41a5-854a-c99ca3f5bff6 targeting router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.196Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7] to server-2
+2025-06-11T16:05:25.198Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T16:05:25.198Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.199Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:e3b12e4d-49fc-422e-86f5-998d5302d07c]
+2025-06-11T16:05:25.199Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 3104ded1-f667-44c8-a637-562e4c59144b to remote 127.0.0.1:10959 for corrId e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.201Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 4accec71-8e8e-40d8-b5b6-5a696821efa8 for corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:05:25.202Z [DEBUG] [RemotePiping]: [Source] Local transport 3104ded1-f667-44c8-a637-562e4c59144b connected successfully.
+2025-06-11T16:05:25.208Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 3e5141c4-4492-4fa1-8ccf-981dbf5f5c39 consuming original producer 1b6d829f-17ff-49aa-9079-6f3b8b695638 on transport 3104ded1-f667-44c8-a637-562e4c59144b
+2025-06-11T16:05:25.206Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 87f87ba9-0118-4177-b3b9-5ee2684a2378 for original producer 87f87ba9-0118-4177-b3b9-5ee2684a2378, corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:05:25.207Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 locally via context.createRemoteProducer
+2025-06-11T16:05:25.208Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 4accec71-8e8e-40d8-b5b6-5a696821efa8 to source transport at 127.0.0.1:10083
+2025-06-11T16:05:25.209Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request e3b12e4d-49fc-422e-86f5-998d5302d07c
+2025-06-11T16:05:25.213Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T16:05:25.212Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T16:05:25.212Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7] with transport 4accec71-8e8e-40d8-b5b6-5a696821efa8 details
+2025-06-11T16:05:25.212Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.213Z [WARN] [RemotePiping]: Could not create RTP observer for router 26491a7c-56be-4239-97ce-c64104d555e7
+2025-06-11T16:05:25.213Z [DEBUG] [RemotePiping]: [Target] Removed corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7 from processing set in finally block.
+2025-06-11T16:05:25.213Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:05:25.213Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7]
+2025-06-11T16:05:25.213Z [DEBUG] [RemotePiping]: [Source] Connecting local transport 16734e8a-d488-41a5-854a-c99ca3f5bff6 to remote 127.0.0.1:10666 for corrId f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:05:25.215Z [DEBUG] [RemotePiping]: [Source] Local transport 16734e8a-d488-41a5-854a-c99ca3f5bff6 connected successfully.
+2025-06-11T16:05:25.217Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 5af2ce1f-5b0a-4dcc-a572-58ac515aa3fd consuming original producer 87f87ba9-0118-4177-b3b9-5ee2684a2378 on transport 16734e8a-d488-41a5-854a-c99ca3f5bff6
+2025-06-11T16:05:25.217Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request f80f573d-d036-4dfe-8f92-ba0bc5d4e0f7
+2025-06-11T16:09:53.396Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.396Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.397Z [DEBUG] [RemotePiping]: Target router 9f498767-9446-4bd2-a529-af5148cf8e09 is remote. Using remote piping.
+2025-06-11T16:09:53.397Z [DEBUG] [RemotePiping]: Target router 9f498767-9446-4bd2-a529-af5148cf8e09 is remote. Using remote piping.
+2025-06-11T16:09:53.398Z [DEBUG] [RemotePiping]: [Source] Marking b2549ffe-06a6-4945-ae5d-b428cc1a3be5:9f498767-9446-4bd2-a529-af5148cf8e09 as being piped
+2025-06-11T16:09:53.398Z [DEBUG] [RemotePiping]: [Source] Marking 4b1e9145-cadb-47ba-a390-0cbfd79e2c20:9f498767-9446-4bd2-a529-af5148cf8e09 as being piped
+2025-06-11T16:09:53.398Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for b2549ffe-06a6-4945-ae5d-b428cc1a3be5
+2025-06-11T16:09:53.399Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 4b1e9145-cadb-47ba-a390-0cbfd79e2c20
+2025-06-11T16:09:53.402Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport db85c45f-0cc8-45af-a74f-0ed92c618569 for corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.403Z [DEBUG] [RemotePiping]: [Source] Stored pending request 2b96fa8f-1064-4742-a28b-d07ce7d87705 with transport db85c45f-0cc8-45af-a74f-0ed92c618569 targeting router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.403Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:2b96fa8f-1064-4742-a28b-d07ce7d87705] to server-2
+2025-06-11T16:09:53.404Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport e54bb029-3863-4a89-a14b-0d6f84e8a553 for corrId 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:53.404Z [DEBUG] [RemotePiping]: [Source] Stored pending request 4bd8433a-655a-40a7-917c-21c8bba573dd with transport e54bb029-3863-4a89-a14b-0d6f84e8a553 targeting router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.404Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:4bd8433a-655a-40a7-917c-21c8bba573dd] to server-2
+2025-06-11T16:09:53.405Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T16:09:53.406Z [DEBUG] [RemotePiping]: [Target] Added corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705 to processing set.
+2025-06-11T16:09:53.410Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T16:09:53.410Z [DEBUG] [RemotePiping]: [Target] Added corrId 4bd8433a-655a-40a7-917c-21c8bba573dd to processing set.
+2025-06-11T16:09:53.414Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport a6c48bb8-730c-48b8-b3c9-699df2d56f43 for corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.420Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 1c378f1f-0f6e-4a6f-a048-d0ee34979037 for corrId 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:53.423Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 for original producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5, corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.424Z [DEBUG] [RemotePiping]: [Target] Registered remote producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 locally via context.createRemoteProducer
+2025-06-11T16:09:53.424Z [DEBUG] [RemotePiping]: [Target] Connecting local transport a6c48bb8-730c-48b8-b3c9-699df2d56f43 to source transport at 127.0.0.1:10758
+2025-06-11T16:09:53.425Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 for original producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20, corrId 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:53.426Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 locally via context.createRemoteProducer
+2025-06-11T16:09:53.426Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 1c378f1f-0f6e-4a6f-a048-d0ee34979037 to source transport at 127.0.0.1:10595
+2025-06-11T16:09:53.428Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T16:09:53.427Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T16:09:53.427Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:2b96fa8f-1064-4742-a28b-d07ce7d87705] with transport a6c48bb8-730c-48b8-b3c9-699df2d56f43 details
+2025-06-11T16:09:53.428Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T16:09:53.428Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:4bd8433a-655a-40a7-917c-21c8bba573dd] with transport 1c378f1f-0f6e-4a6f-a048-d0ee34979037 details
+2025-06-11T16:09:53.428Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.429Z [WARN] [RemotePiping]: Could not create RTP observer for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.429Z [DEBUG] [RemotePiping]: [Target] Removed corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705 from processing set in finally block.
+2025-06-11T16:09:53.429Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.429Z [WARN] [RemotePiping]: Could not create RTP observer for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:53.429Z [DEBUG] [RemotePiping]: [Target] Removed corrId 4bd8433a-655a-40a7-917c-21c8bba573dd from processing set in finally block.
+2025-06-11T16:09:53.429Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.429Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:2b96fa8f-1064-4742-a28b-d07ce7d87705]
+2025-06-11T16:09:53.430Z [DEBUG] [RemotePiping]: [Source] Connecting local transport db85c45f-0cc8-45af-a74f-0ed92c618569 to remote 127.0.0.1:10839 for corrId 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.432Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T16:09:53.432Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:53.432Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:4bd8433a-655a-40a7-917c-21c8bba573dd]
+2025-06-11T16:09:53.432Z [DEBUG] [RemotePiping]: [Source] Connecting local transport e54bb029-3863-4a89-a14b-0d6f84e8a553 to remote 127.0.0.1:10746 for corrId 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:53.433Z [DEBUG] [RemotePiping]: [Source] Local transport db85c45f-0cc8-45af-a74f-0ed92c618569 connected successfully.
+2025-06-11T16:09:53.433Z [DEBUG] [RemotePiping]: [Source] Local transport e54bb029-3863-4a89-a14b-0d6f84e8a553 connected successfully.
+2025-06-11T16:09:53.438Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer 6a8a4eee-ea59-482f-80dc-fdf3b0c16089 consuming original producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 on transport db85c45f-0cc8-45af-a74f-0ed92c618569
+2025-06-11T16:09:53.439Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 2b96fa8f-1064-4742-a28b-d07ce7d87705
+2025-06-11T16:09:53.439Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer cc6beaf4-66d4-43db-bbc9-419d8169afed consuming original producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 on transport e54bb029-3863-4a89-a14b-0d6f84e8a553
+2025-06-11T16:09:53.439Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 4bd8433a-655a-40a7-917c-21c8bba573dd
+2025-06-11T16:09:54.159Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.159Z [DEBUG] [RemotePiping]: Target router 9f498767-9446-4bd2-a529-af5148cf8e09 is remote. Using remote piping.
+2025-06-11T16:09:54.159Z [DEBUG] [RemotePiping]: [Source] Producer b2549ffe-06a6-4945-ae5d-b428cc1a3be5 already piped to router 9f498767-9446-4bd2-a529-af5148cf8e09. Skipping duplicate.
+2025-06-11T16:09:54.206Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 9f498767-9446-4bd2-a529-af5148cf8e09
+2025-06-11T16:09:54.206Z [DEBUG] [RemotePiping]: Target router 9f498767-9446-4bd2-a529-af5148cf8e09 is remote. Using remote piping.
+2025-06-11T16:09:54.206Z [DEBUG] [RemotePiping]: [Source] Producer 4b1e9145-cadb-47ba-a390-0cbfd79e2c20 already piped to router 9f498767-9446-4bd2-a529-af5148cf8e09. Skipping duplicate.
+2025-06-11T16:14:14.968Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:14.969Z [DEBUG] [RemotePiping]: Target router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308 is remote. Using remote piping.
+2025-06-11T16:14:14.969Z [DEBUG] [RemotePiping]: [Source] Marking 2b05255a-e71b-4114-b21b-ffc5239debe8:64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308 as being piped
+2025-06-11T16:14:14.970Z [DEBUG] [RemotePiping]: [Source] Retrieved producer info for 2b05255a-e71b-4114-b21b-ffc5239debe8
+2025-06-11T16:14:14.974Z [DEBUG] [RemotePiping]: [Source] Created PipeTransport acce04c6-7fc3-46aa-8c4d-a3ba1ac65357 for corrId 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:14.974Z [DEBUG] [RemotePiping]: [Source] Stored pending request 8141c71a-1d66-44e2-a7c0-c291079bf997 with transport acce04c6-7fc3-46aa-8c4d-a3ba1ac65357 targeting router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:14.975Z [DEBUG] [RemotePiping]: [Source] Sending pipe_initiate [correlationId:8141c71a-1d66-44e2-a7c0-c291079bf997] to server-2
+2025-06-11T16:14:14.977Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_initiate
+2025-06-11T16:14:14.979Z [DEBUG] [RemotePiping]: [Target] Added corrId 8141c71a-1d66-44e2-a7c0-c291079bf997 to processing set.
+2025-06-11T16:14:14.988Z [DEBUG] [RemotePiping]: [Target] Created PipeTransport 460b9008-a399-46c4-985a-e2ac5aa733af for corrId 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:14.996Z [DEBUG] [RemotePiping]: [Target] Created PipeProducer 2b05255a-e71b-4114-b21b-ffc5239debe8 for original producer 2b05255a-e71b-4114-b21b-ffc5239debe8, corrId 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:14.997Z [DEBUG] [RemotePiping]: [Target] Registered remote producer 2b05255a-e71b-4114-b21b-ffc5239debe8 locally via context.createRemoteProducer
+2025-06-11T16:14:14.997Z [DEBUG] [RemotePiping]: [Target] Connecting local transport 460b9008-a399-46c4-985a-e2ac5aa733af to source transport at 127.0.0.1:10837
+2025-06-11T16:14:15.000Z [DEBUG] [RemotePiping]: Handling pipe signaling message of type: pipe_confirm
+2025-06-11T16:14:14.999Z [DEBUG] [RemotePiping]: [Target] Successfully connected local transport to source transport
+2025-06-11T16:14:14.999Z [DEBUG] [RemotePiping]: [Target] Sending pipe_confirm [correlationId:8141c71a-1d66-44e2-a7c0-c291079bf997] with transport 460b9008-a399-46c4-985a-e2ac5aa733af details
+2025-06-11T16:14:15.000Z [DEBUG] [RemotePiping]: Setting up RTP observer for router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:15.000Z [WARN] [RemotePiping]: Could not create RTP observer for router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:15.000Z [DEBUG] [RemotePiping]: [Target] Removed corrId 8141c71a-1d66-44e2-a7c0-c291079bf997 from processing set in finally block.
+2025-06-11T16:14:15.000Z [DEBUG] [RemotePiping]: Processing pipe_confirm message with correlationId 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:15.001Z [DEBUG] [RemotePiping]: [Source] Received pipe_confirm [correlationId:8141c71a-1d66-44e2-a7c0-c291079bf997]
+2025-06-11T16:14:15.001Z [DEBUG] [RemotePiping]: [Source] Connecting local transport acce04c6-7fc3-46aa-8c4d-a3ba1ac65357 to remote 127.0.0.1:10695 for corrId 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:15.003Z [DEBUG] [RemotePiping]: [Source] Local transport acce04c6-7fc3-46aa-8c4d-a3ba1ac65357 connected successfully.
+2025-06-11T16:14:15.008Z [DEBUG] [RemotePiping]: [Source] Created PipeConsumer ea4ff80c-6824-41db-a1e8-1104fa12bcd4 consuming original producer 2b05255a-e71b-4114-b21b-ffc5239debe8 on transport acce04c6-7fc3-46aa-8c4d-a3ba1ac65357
+2025-06-11T16:14:15.008Z [DEBUG] [RemotePiping]: [Source] Successfully resolved pipe request 8141c71a-1d66-44e2-a7c0-c291079bf997
+2025-06-11T16:14:17.608Z [DEBUG] [RemotePiping]: Deciding pipe strategy for router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308
+2025-06-11T16:14:17.609Z [DEBUG] [RemotePiping]: Target router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308 is remote. Using remote piping.
+2025-06-11T16:14:17.609Z [DEBUG] [RemotePiping]: [Source] Producer 2b05255a-e71b-4114-b21b-ffc5239debe8 already piped to router 64b4d4e1-5858-44f7-ba1a-c6c9fcaa5308. Skipping duplicate.
